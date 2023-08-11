@@ -1,8 +1,8 @@
 ---
 homepage: true
 layout: product
-title: Standards Manual
-description: A guide to help teams create data standards for planning and housing
+title: Data standards manual
+description: A guide to help teams create standards for planning and housing data
 ---
 
 <div class="govuk-grid-row">
