@@ -7,9 +7,11 @@ description: A guide to help teams create standards for planning and housing dat
 
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-one-half">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut aperiam delectus necessitatibus optio natus incidunt veniam laudantium suscipit. Magnam repudiandae non id, aliquam magni illo ea impedit facere maiores ut.</p>
+        <ul class="govuk-list">
+            <li><a href="/principles">Design principles for Data Standards</a></li>
+        </ul>
     </div>
     <div class="govuk-grid-column-one-half">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni dolore ratione aliquam. Veniam, tempora, omnis est libero veritatis odio in sapiente vitae, itaque at voluptas non. Voluptas, quod voluptatibus! Quae!</p>
+        <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni dolore ratione aliquam. Veniam, tempora, omnis est libero veritatis odio in sapiente vitae, itaque at voluptas non. Voluptas, quod voluptatibus! Quae!</p> -->
     </div>
 </div>
