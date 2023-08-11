@@ -49,7 +49,9 @@ It’s easier to see the links between datasets when we use consistent field nam
 
 It’s easier to compare data points when we use the same formats, for example, all  dates are in `YYYY-MM-DD format`.
 
-It’s easier to use the data to build robust services when you can be confident about the structure of the data. For example when field names are all kebab-case (each word is in lower case, and separated by dashes) and points are in the WGS84 coordinate reference system.
+It’s easier to use the data to build robust services when you can be confident about the structure of the data. 
+
+For example when field names are all kebab-case (each word is in lower case, and separated by dashes) and points are in the WGS84 coordinate reference system.
 
 ## Every entity has an organisation responsible for it
 Although we might get data or facts about an entity from multiple sources, each entity should have an authoritative owner.
