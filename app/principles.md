@@ -31,34 +31,39 @@ Standards change to reflect the changing landscape of needs.
 Linked data is more valuable because it interconnects information, enabling seamless navigation and discovery. It unlocks the potential of data by revealing relationships, dependencies and context.
 
 ## Some data is better than no data at all
+The planning.data.gov.uk platform makes it easy to add additional attributes and records over time. Often some data is better than nothing. For instance providing the geometries for conservation areas and then later linking to the document that provides the authoritative source means that we can start showing conservation areas on the national map sooner.
 
 ## Don’t include inferrable data
-The data we ask for should be raw data. We shouldn’t ask for data that can be inferred from other data included in the standard. For example, if we are asking for geometry, we do not need to also ask for the area. That can be calculated.
-
-No calculated columns.
+To help ensure integrity, the data set shouldn't contain any values that can be derived or calculated from other values. The data we ask for should only be the raw data. For example, if we have asked for a geometry, we do not need to also ask for the area. The area can be derived.
 
 ## Every category should have a reason
-
-We want the data to be meaningful. Making sure publishers only include categories that fulfil a need is one way to do this.
-
-We shouldn’t be asking publishers for data that isn’t useful.
+We want the data to be meaningful. Making sure publishers only include categories that fulfil a need is one way to do this. We shouldn’t be asking publishers for data that isn’t useful.
 
 ## Consistency makes data easier to create, find and use
+It’s easier to see the links between datasets when we use consistent field names. 
 
-It’s easier to see the links between datasets when we use consistent field names.
+It’s easier to compare data points when we use the same formats, for example, all  dates are in YYYY-MM-DD format.
 
-It’s easier to compare data points when we use the same formats, for example, all  dates are in `YYYY-MM-DD format`.
+It’s easier to use the data to build robust services when you can be confident about the structure of the data. For example when field names are all kebab-case (each word is in lower case, and separated by dashes) and points are in the WGS84 coordinate reference system.
 
-It’s easier to use the data to build robust services when you can be confident about the structure of the data. 
-
-For example when field names are all kebab-case (each word is in lower case, and separated by dashes) and points are in the WGS84 coordinate reference system.
-
-## Every entity has an organisation responsible for it
+## Every entity has organisations responsible for it
 Although we might get data or facts about an entity from multiple sources, each entity should have an authoritative owner.
 
-For example, development plans are owned by the author’s of the plan. And brownfield sites are owned by the local planning authority (LPA) that designates a site as brownfield.
+For example, development plans are owned by the authors of the plan. And brownfield sites are owned by the local planning authority (LPA) that designates a site as brownfield.
 
-## Use approaches from relational data modelling
-We do this but would be good to explain why.
-Example is constant churn of a wide record vs flexibility of component parts.
-Makes it easier to repurpose.
+## Structure data using similar principles to relational databases
+
+Our data models share similar principles of a relational database. This helps to reduce duplication and makes the data easier to maintain, which in turn increases the trust and usefulness of the data.
+
+Structuring our data in this way involves using unique identifiers to link datasets together. For example, in the developer contributions standards we created 1 dataset for the list of all developer agreements. Then we created a second dataset for all the contributions, with each linking back to the agreement they came from.
+
+This style of data model means that each dataset only has to contain the minimum amount of required information, but we can link to related datasets to provide context and further detail.
+
+## Smaller datasets are better than baggy datasets
+
+The smaller the breadth of the data model, the easier it will be to maintain and publish. When datasets become too broad, it increases the chance that data will be missed out, guessed, or needed to be made non-mandatory. 
+
+## Not deleting entries in a register
+Once something changes, is superseded, or becomes redundant, a new record should be added to the register. The old one can be marked as expired through the use of an end date.
+Showing any changes in data helps to make the data more trustworthy and provides reassurance. It also allows service providers to build historic views of the data to demonstrate what has changed over time.
+
