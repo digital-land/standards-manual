@@ -38,7 +38,7 @@ description:
       The reference of the dataset, used throughout the planning data ecosystem. It’s usually a <a href="https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case" class="govuk-link">kebab case</a> version of the dataset name.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Description
     </dt>
@@ -46,7 +46,7 @@ description:
       A short description of what the dataset represents.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       End-date
     </dt>
@@ -54,7 +54,7 @@ description:
       When the dataset is no longer used an end-date can be added. This shows historically it used to exist but is not used now.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Entry-date
     </dt>
@@ -62,7 +62,7 @@ description:
       Add the date in format <code>YYYY-MM-DD</code> when you added the dataset schema to specification.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Entity-minimum
     </dt>
@@ -70,7 +70,7 @@ description:
       Every record in the planning.data platform has an entity number. This attribute indicates the lowest number the platform should start issuing numbers from.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Entity-maximum
     </dt>
@@ -78,7 +78,7 @@ description:
       Every record in the planning.data platform has an entity number. This attribute indicates the highest end of the range the platform should use to issue numbers.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Fields
     </dt>
@@ -86,7 +86,7 @@ description:
       Defines the fields that make up each record in the dataset. Include all the fields that should be part of the record as it should be on the platform.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Key-field
     </dt>
@@ -94,7 +94,7 @@ description:
       This is a deprecated field that used to be used to explicitly specify a key-field for the dataset.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Licence
     </dt>
@@ -102,7 +102,7 @@ description:
       The terms and conditions under which users can use, share and distribute the dataset. The licences we use are defined in <a href="https://github.com/digital-land/specification/tree/main/content/licence" class="govuk-link">specification/content/licence</a>.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Name
     </dt>
@@ -110,7 +110,7 @@ description:
       The name of the dataset.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Paint-options
     </dt>
@@ -118,6 +118,7 @@ description:
       JSON that defines the colour and fill of geometries on the <a href="https://www.planning.data.gov.uk/map/" class="govuk-link">national map</a>. Candidate to remove from specification.
     </dd>
   </div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Plural
     </dt>
@@ -125,7 +126,7 @@ description:
       The pluralised version of the name. It’s used by planning.data when it needs to refer to the plural of the dataset.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Phase
     </dt>
@@ -133,7 +134,7 @@ description:
       The phase of development for this dataset and any associated specification, for example alpha. The <a href="https://github.com/digital-land/specification/blob/main/content/phase.csv" class="govuk-link">values allowed are defined in the specification repository</a>.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Prefix
     </dt>
@@ -141,7 +142,7 @@ description:
       Usage unknown. Leave blank.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Realm
     </dt>
@@ -149,7 +150,7 @@ description:
       A way to group datasets by areas of concern to the platform team. For example, datasets that are for the pipeline or datasets that are about the provenance mechanism. The <a href="https://github.com/digital-land/specification/blob/main/content/realm.csv" class="govuk-link">realms</a> are defined in the specification repository.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Start-date
     </dt>
@@ -157,7 +158,7 @@ description:
       An optional start-date in the format <code>YYYY-MM-DD</code>. Put a future date if you want a dataset to only be ‘active’ from that date.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Text
     </dt>
@@ -165,7 +166,7 @@ description:
       This attribute is used to provide an expanded description of the dataset. It’s the text part of the markdown file. It’s used as the summary on the dataset pages on planning.data.gov.uk (for example: <a href="https://www.planning.data.gov.uk/dataset/ancient-woodland" class="govuk-link">https://www.planning.data.gov.uk/dataset/ancient-woodland</a>).
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Themes
     </dt>
@@ -173,7 +174,7 @@ description:
       High level DLUHC-related groupings for the dataset. It allows the department to know what sort of datasets are covered. The <a href="https://github.com/digital-land/specification/tree/main/content/theme" class="govuk-link">themes</a> are defined in the specification repository.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Typology
     </dt>
@@ -181,7 +182,7 @@ description:
       The classification of the type of thing the datasets are modelling. For example geography is used for things that contain a geospatial element.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Version
     </dt>
@@ -189,7 +190,7 @@ description:
       The version number of the dataset definition. It allows us to keep track of the field changes over time. You can read more about <a href="https://digital-land.github.io/blog-post/versioning-our-standards/" class="govuk-link">how we version our standards and datasets</a>.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Wikidata
     </dt>
@@ -197,7 +198,7 @@ description:
       This is the wikidata identifier (if it exists) for what the dataset is modelling. For example, <a href="https://www.wikidata.org/wiki/Q3078732" class="govuk-link">Q3078732</a> for ancient woodland.
     </dd>
   </div>
-  <div>
+  <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
       Wikipedia
     </dt>
