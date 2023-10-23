@@ -24,10 +24,11 @@
         <li>
           <div class="app-field__header govuk-!-margin-bottom-1">
             <span class="govuk-!-font-weight-bold">{{ field.name }}</span>
-            {%- if field.description %}
-            - {{ field.description }}
-            {% endif -%}
+            <span class="govuk-hint">({{ field.field }})</span>
           </div>
+          {%- if field.description %}
+          <p class="govuk-body">{{ field.description }}</p>
+          {% endif -%}
           {%- if field.datasets|length > 0 %}
           <p class="govuk-body">Datasets using this field are: {% for dataset in field.datasets %}
             {{ dataset }}{% if not loop.last %}, {% endif %}
