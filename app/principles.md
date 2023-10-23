@@ -74,5 +74,12 @@ The smaller the breadth of the data model, the easier it will be to maintain and
 <h2 class="govuk-heading-l govuk-!-margin-top-9">We shouldn't delete entries in a register</h2>
 
 Once something changes, is superseded, or becomes redundant, a new record should be added to the register. The old one can be marked as expired through the use of an end date.
+
 Showing any changes in data helps to make the data more trustworthy and provides reassurance. It also allows service providers to build historic views of the data to demonstrate what has changed over time.
+
+<h2 class="govuk-heading-l govuk-!-margin-top-9">Maintain a link to the authoritative source</h2>
+
+The platform makes it easier to build services on top of planning data but it does not take over the responsibility and ownership of the data. This remains the legal responsibility of the publisher. Therefore, it is important to be able to trace back from any data on the platform to the original, unprocessed source of the data.
+
+If users want to access this unprocessed data they will always be able to get it directly from the publisher, as well as any associate legal instruments and supporting documents.
 
