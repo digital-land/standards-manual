@@ -30,7 +30,7 @@ Dates can be written in many different ways. To avoid confusion, all our dates c
 A date should be represented as `YYYY-MM-DD`, so for example, 4 June 2018 would be written as `2018-06-04`.
 
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">Identifiers</h2>
+<h2 class="govuk-heading-m govuk-!-margin-top-9">Identifiers and references</h2>
 
 When we create a unique identifier we:
 
@@ -39,8 +39,14 @@ When we create a unique identifier we:
 * never reuse this ID
 * assign an ID to all records
 
-Creating unique identifiers can be complex, therefore we try not to ask data providers for truly unique identifiers. Instead we ask for a `reference` which we hope is at least unique to their organisation.
+Creating unique identifiers can be complex, therefore we try not to ask data providers for true identifiers. Instead we ask for a `reference` which we hope is at least unique to their organisation.
 
+A `reference` is more human readable. It should be something planners recognise, can be used in document and something a citizen can call up and talk about.
+
+A `reference` should be persisent and something the publisher issues and manages.
+What we need are persistent, managed references planners would recognise, which appear in documents, and which you can ring up and talk to the call centre about, eg "CA01", or the planning application reference.
+
+For example, a unique id might be `10003-10927832-18389-183890` whereas a `reference` might be `CA01` for a conservation area.
 
 <h2 class="govuk-heading-m govuk-!-margin-top-9">A record with a document-url should also have a documentation-url</h2>
 
