@@ -7,7 +7,7 @@ module.exports = function (eleventyConfig) {
       header: {
         organisationLogo: false,
         organisationName: 'Planning Data',
-        productName: 'Standards',
+        productName: 'Standards manual',
         search: {
           indexPath: '/search.json',
           sitemapPath: '/sitemap'
@@ -17,7 +17,7 @@ module.exports = function (eleventyConfig) {
   
     // Passthrough
     eleventyConfig.addPassthroughCopy({ './app/images': '.' })
-  
+    
     // Config
     return {
       dataTemplateEngine: 'njk',
