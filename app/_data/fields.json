@@ -1,0 +1,5334 @@
+{
+    "created": "2023-10-23",
+    "fields": [
+        {
+            "field": "address-text",
+            "name": "Address text",
+            "description": "Address as a single line of text, separated by commas",
+            "datasets": [
+                "address",
+                "article-4-direction-area",
+                "listed-building-outline",
+                "planning-application",
+                "tree-preservation-zone",
+                "tree"
+            ]
+        },
+        {
+            "field": "address",
+            "name": "Address",
+            "description": "",
+            "datasets": [
+                "address",
+                "listed-building-outline",
+                "tree"
+            ]
+        },
+        {
+            "field": "addressbase-custodian",
+            "name": "AddressBase custodian",
+            "description": "",
+            "datasets": [
+                "government-organisation",
+                "local-authority",
+                "organisation"
+            ]
+        },
+        {
+            "field": "adopted-date",
+            "name": "Adopted date",
+            "description": "The date a plan is officially adopted.",
+            "datasets": [
+                "development-plan"
+            ]
+        },
+        {
+            "field": "amount",
+            "name": "Amount",
+            "description": "",
+            "datasets": [
+                "developer-agreement-contribution",
+                "developer-agreement-transaction"
+            ]
+        },
+        {
+            "field": "ancient-woodland-status",
+            "name": "Ancient woodland status",
+            "description": "Status of an ancient woodland",
+            "datasets": [
+                "ancient-woodland"
+            ]
+        },
+        {
+            "field": "ancient-woodland",
+            "name": "Ancient Woodland",
+            "description": "",
+            "datasets": [
+                "ancient-woodland"
+            ]
+        },
+        {
+            "field": "applicant-organisation",
+            "name": "Applicant organisation",
+            "description": "",
+            "datasets": [
+                "infrastructure-project"
+            ]
+        },
+        {
+            "field": "archaelogy-area-type",
+            "name": "Archaelogy area type",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "area-of-outstanding-natural-beauty",
+            "name": "Area of Outstanding Natural Beauty",
+            "description": "A protected area of countryside with a distinctive character and natural beauty",
+            "datasets": []
+        },
+        {
+            "field": "article-4-direction-area",
+            "name": "Article-4 direction area",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "article-4-direction-rule",
+            "name": "Article 4 direction rule",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "article-4-direction-rules",
+            "name": "Article-4 direction rules",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "article-4-direction",
+            "name": "Article-4 direction",
+            "description": "",
+            "datasets": [
+                "article-4-direction-area"
+            ]
+        },
+        {
+            "field": "asset-of-community-value",
+            "name": "Asset of community value",
+            "description": "",
+            "datasets": [
+                "asset-of-community-value"
+            ]
+        },
+        {
+            "field": "attribution",
+            "name": "Attribution",
+            "description": "",
+            "datasets": [
+                "attribution",
+                "dataset",
+                "source"
+            ]
+        },
+        {
+            "field": "battlefield",
+            "name": "Battlefield",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "best-and-most-versatile-agricultural-land",
+            "name": "Best and most versatile agricultural land",
+            "description": "",
+            "datasets": [
+                "best-and-most-versatile-agricultural-land"
+            ]
+        },
+        {
+            "field": "billing-authority",
+            "name": "Billing authority",
+            "description": "",
+            "datasets": [
+                "government-organisation",
+                "local-authority",
+                "national-park-authority",
+                "organisation",
+                "passenger-transport-executive",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "biodiversity-net-gain-assessment",
+            "name": "Biodiversity net gain assessment",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "blob",
+            "name": "BLOB",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "brownfield-land",
+            "name": "Brownfield Land",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "brownfield-site",
+            "name": "Brownfield Site",
+            "description": "",
+            "datasets": [
+                "brownfield-site"
+            ]
+        },
+        {
+            "field": "buffer-zone",
+            "name": "Buffer zone",
+            "description": "",
+            "datasets": [
+                "buffer-zone"
+            ]
+        },
+        {
+            "field": "building-preservation-notice",
+            "name": "Building preservation notice",
+            "description": "",
+            "datasets": [
+                "building-preservation-notice"
+            ]
+        },
+        {
+            "field": "bytes",
+            "name": "Bytes",
+            "description": "",
+            "datasets": [
+                "checksum",
+                "log",
+                "resource"
+            ]
+        },
+        {
+            "field": "cardinality",
+            "name": "Cardinality",
+            "description": "",
+            "datasets": [
+                "field"
+            ]
+        },
+        {
+            "field": "categories",
+            "name": "Categories",
+            "description": "",
+            "datasets": [
+                "asset-of-community-value",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "conservation-area",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "employment-allocation",
+                "geography",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "local-authority-district",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "nature-improvement-area",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nuclear-safety-zone",
+                "policy",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "public-safety-zone-around-airport",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "special-area-of-conservation",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "wildbelt",
+                "wildlife"
+            ]
+        },
+        {
+            "field": "category",
+            "name": "Category",
+            "description": "",
+            "datasets": [
+                "category",
+                "document-type"
+            ]
+        },
+        {
+            "field": "census-area",
+            "name": "Census area",
+            "description": "",
+            "datasets": [
+                "organisation"
+            ]
+        },
+        {
+            "field": "central-activities-zone",
+            "name": "Central activities zone",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "certificate-of-immunity",
+            "name": "Certificate of immunity",
+            "description": "",
+            "datasets": [
+                "certificate-of-immunity"
+            ]
+        },
+        {
+            "field": "checksum",
+            "name": "Checksum",
+            "description": "The MD5 checksum of a resource or file",
+            "datasets": [
+                "checksum"
+            ]
+        },
+        {
+            "field": "citizen-name",
+            "name": "Citizen name",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "citizen-names",
+            "name": "Citizen names",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "clinical-commissioning-group",
+            "name": "Clinical commissioning group",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "coastal-change-management-area",
+            "name": "Coastal change management area",
+            "description": "",
+            "datasets": [
+                "coastal-change-management-area"
+            ]
+        },
+        {
+            "field": "collection",
+            "name": "Collection",
+            "description": "",
+            "datasets": [
+                "collection",
+                "dataset",
+                "source"
+            ]
+        },
+        {
+            "field": "column",
+            "name": "Column",
+            "description": "A column name in the resource",
+            "datasets": [
+                "column-field",
+                "column"
+            ]
+        },
+        {
+            "field": "combined-authority",
+            "name": "Combined authority",
+            "description": "",
+            "datasets": [
+                "local-authority",
+                "organisation"
+            ]
+        },
+        {
+            "field": "common-land-and-village-green",
+            "name": "Common land and village green",
+            "description": "",
+            "datasets": [
+                "common-land-and-village-green"
+            ]
+        },
+        {
+            "field": "company",
+            "name": "Company",
+            "description": "",
+            "datasets": [
+                "development-corporation",
+                "internal-drainage-board",
+                "local-enterprise-partnership",
+                "neighbourhood-forum",
+                "nonprofit",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "confirmed-date",
+            "name": "Confirmed date",
+            "description": "The date a tree preservation order is confirmed and becomes a fully fledged tree preservation order.",
+            "datasets": [
+                "tree-preservation-order"
+            ]
+        },
+        {
+            "field": "conservation-area-document-type",
+            "name": "Conservation area document type",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "conservation-area-document",
+            "name": "Conservation area document",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "conservation-area",
+            "name": "Conservation area",
+            "description": "",
+            "datasets": [
+                "conservation-area-document",
+                "conservation-area"
+            ]
+        },
+        {
+            "field": "contact",
+            "name": "Contact",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "contaminated-land",
+            "name": "Contaminated land",
+            "description": "",
+            "datasets": [
+                "contaminated-land"
+            ]
+        },
+        {
+            "field": "content-type",
+            "name": "Content-Type",
+            "description": "A HTTP content-type header value",
+            "datasets": [
+                "log"
+            ]
+        },
+        {
+            "field": "contribution-funding-status",
+            "name": "Contribution funding status",
+            "description": "",
+            "datasets": [
+                "developer-agreement-transaction"
+            ]
+        },
+        {
+            "field": "contribution-purpose",
+            "name": "Contribution purpose",
+            "description": "",
+            "datasets": [
+                "developer-agreement-contribution"
+            ]
+        },
+        {
+            "field": "control-of-major-accident-hazards-site",
+            "name": "Control of major accident hazards site",
+            "description": "",
+            "datasets": [
+                "control-of-major-accident-hazards-site"
+            ]
+        },
+        {
+            "field": "copyright",
+            "name": "Copyright",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "country",
+            "name": "Country",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "data-package",
+            "name": "Data package",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "datapackage",
+            "name": "Data package",
+            "description": "",
+            "datasets": [
+                "datapackage-dataset",
+                "datapackage"
+            ]
+        },
+        {
+            "field": "dataset",
+            "name": "Dataset",
+            "description": "",
+            "datasets": [
+                "checksum",
+                "column-field",
+                "column",
+                "combine",
+                "concat",
+                "convert",
+                "datapackage-dataset",
+                "dataset-field",
+                "dataset-resource",
+                "dataset-schema",
+                "dataset",
+                "default-value",
+                "default",
+                "entity",
+                "filter",
+                "issue",
+                "organisation-dataset",
+                "patch",
+                "skip",
+                "transform"
+            ]
+        },
+        {
+            "field": "datasets",
+            "name": "Datasets",
+            "description": "",
+            "datasets": [
+                "resource",
+                "specification"
+            ]
+        },
+        {
+            "field": "datatype",
+            "name": "Datatype",
+            "description": "",
+            "datasets": [
+                "datatype",
+                "field"
+            ]
+        },
+        {
+            "field": "datetime",
+            "name": "Datetime",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "decision-date",
+            "name": "Decision date",
+            "description": "",
+            "datasets": [
+                "infrastructure-project",
+                "planning-application"
+            ]
+        },
+        {
+            "field": "decision-maker",
+            "name": "Decision maker",
+            "description": "",
+            "datasets": [
+                "infrastructure-project"
+            ]
+        },
+        {
+            "field": "default-field",
+            "name": "Default field",
+            "description": "",
+            "datasets": [
+                "default"
+            ]
+        },
+        {
+            "field": "deliverable",
+            "name": "Deliverable",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "Deliverable",
+            "name": "Deliverable",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "description",
+            "name": "Description",
+            "description": "",
+            "datasets": [
+                "ancient-woodland-status",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "biodiversity-net-gain-assessment",
+                "central-activities-zone",
+                "conservation-area-document",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "datapackage",
+                "dataset",
+                "design-code-area",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-type",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography",
+                "development-plan",
+                "development-policy",
+                "document-type",
+                "document",
+                "field",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "issue-type",
+                "listed-building-grade",
+                "listed-building-outline",
+                "ownership-status",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "phase",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "project-status",
+                "project",
+                "provision-reason",
+                "realm",
+                "schema",
+                "severity",
+                "special-protection-area",
+                "specification-status",
+                "specification",
+                "tree-preservation-order",
+                "tree-preservation-zone",
+                "tree",
+                "typology"
+            ]
+        },
+        {
+            "field": "design-code-area",
+            "name": "Design code area",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "design-code-categories",
+            "name": "Design code categories",
+            "description": "",
+            "datasets": [
+                "design-code"
+            ]
+        },
+        {
+            "field": "design-code-category",
+            "name": "Design code category",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "design-code-rule",
+            "name": "Design code rule",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "design-code-rules",
+            "name": "Design code rule",
+            "description": "",
+            "datasets": [
+                "design-code-area"
+            ]
+        },
+        {
+            "field": "design-code",
+            "name": "Design code",
+            "description": "",
+            "datasets": [
+                "design-code-area",
+                "design-code-rule"
+            ]
+        },
+        {
+            "field": "design-code-status",
+            "name": "Design code status",
+            "description": "",
+            "datasets": [
+                "design-code"
+            ]
+        },
+        {
+            "field": "developer-agreement-contribution",
+            "name": "Developer agreement contribution",
+            "description": "",
+            "datasets": [
+                "developer-agreement-contribution",
+                "developer-agreement-transaction"
+            ]
+        },
+        {
+            "field": "developer-agreement-transaction",
+            "name": "Developer agreement transaction",
+            "description": "",
+            "datasets": [
+                "developer-agreement-transaction"
+            ]
+        },
+        {
+            "field": "developer-agreement-type",
+            "name": "Developer agreement type",
+            "description": "",
+            "datasets": [
+                "contribution-purpose",
+                "developer-agreement"
+            ]
+        },
+        {
+            "field": "developer-agreement",
+            "name": "Developer agreement",
+            "description": "A legal document used to secure contributions from a development for infrastructure or affordable housing.",
+            "datasets": [
+                "developer-agreement-contribution",
+                "developer-agreement"
+            ]
+        },
+        {
+            "field": "development-classification",
+            "name": "Development classification",
+            "description": "",
+            "datasets": [
+                "planning-application"
+            ]
+        },
+        {
+            "field": "development-corporation",
+            "name": "Development corporation",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "development-metric",
+            "name": "Development metric",
+            "description": "",
+            "datasets": [
+                "development-policy-metric"
+            ]
+        },
+        {
+            "field": "development-plan-document-type",
+            "name": "Development plan type",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "development-plan-document",
+            "name": "Development plan document",
+            "description": "",
+            "datasets": [
+                "development-policy"
+            ]
+        },
+        {
+            "field": "development-plan-event",
+            "name": "Development plan event",
+            "description": "",
+            "datasets": [
+                "development-plan-timetable"
+            ]
+        },
+        {
+            "field": "development-plan-geography-type",
+            "name": "Development plan geography type",
+            "description": "",
+            "datasets": [
+                "development-plan-geography"
+            ]
+        },
+        {
+            "field": "development-plan-geography",
+            "name": "Development plan geography",
+            "description": "",
+            "datasets": [
+                "development-plan"
+            ]
+        },
+        {
+            "field": "development-plan-status",
+            "name": "Development plan status",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "development-plan-timetable",
+            "name": "Development plan timetable",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "development-plan-type",
+            "name": "Development plan type",
+            "description": "",
+            "datasets": [
+                "development-plan"
+            ]
+        },
+        {
+            "field": "development-plan-types",
+            "name": "Development plan types",
+            "description": "One or more development plan types",
+            "datasets": []
+        },
+        {
+            "field": "development-plan",
+            "name": "Development plan",
+            "description": "",
+            "datasets": [
+                "development-plan-document",
+                "development-plan-timetable"
+            ]
+        },
+        {
+            "field": "development-policies",
+            "name": "Development policies",
+            "description": "A list of development policies",
+            "datasets": [
+                "development-policy-area"
+            ]
+        },
+        {
+            "field": "development-policy-area",
+            "name": "Development policy area",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "development-policy-categories",
+            "name": "Development policy categories",
+            "description": "",
+            "datasets": [
+                "development-policy"
+            ]
+        },
+        {
+            "field": "development-policy-category",
+            "name": "Development policy category",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "development-policy-metric",
+            "name": "Development policy metric",
+            "description": "Metric associated with a development policy",
+            "datasets": []
+        },
+        {
+            "field": "development-policy",
+            "name": "Development policy",
+            "description": "",
+            "datasets": [
+                "development-policy-metric"
+            ]
+        },
+        {
+            "field": "DevelopmentDescription",
+            "name": "Development description",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "document-type",
+            "name": "Document type",
+            "description": "",
+            "datasets": [
+                "conservation-area-document",
+                "development-plan-document",
+                "infrastructure-project-document",
+                "planning-application-document"
+            ]
+        },
+        {
+            "field": "document-types",
+            "name": "Document types",
+            "description": "One or more document types",
+            "datasets": [
+                "biodiversity-net-gain-assessment",
+                "document"
+            ]
+        },
+        {
+            "field": "document-url",
+            "name": "Document URL",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "battlefield",
+                "biodiversity-net-gain-assessment",
+                "conservation-area-document",
+                "design-code-area",
+                "design-code-rule",
+                "design-code",
+                "developer-agreement",
+                "development-plan-document",
+                "development-plan-timetable",
+                "development-plan",
+                "development-policy-area",
+                "document",
+                "infrastructure-funding-statement",
+                "infrastructure-project-document",
+                "listed-building-outline",
+                "planning-application-document",
+                "planning-application-log",
+                "site-of-special-scientific-interest",
+                "special-protection-area",
+                "tree-preservation-order"
+            ]
+        },
+        {
+            "field": "document",
+            "name": "Document",
+            "description": "",
+            "datasets": [
+                "biodiversity-net-gain-assessment"
+            ]
+        },
+        {
+            "field": "documentation-url",
+            "name": "Documentation URL",
+            "description": "",
+            "datasets": [
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "design-code-rule",
+                "design-code",
+                "development-plan-document",
+                "development-plan-timetable",
+                "development-plan",
+                "development-policy-area",
+                "employment-allocation",
+                "geography",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-document",
+                "infrastructure-project",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "nature-improvement-area",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nuclear-safety-zone",
+                "open-space",
+                "parish",
+                "park-and-garden",
+                "permitted-development-right",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "region",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-of-special-scientific-interest",
+                "source",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "specification",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "elapsed",
+            "name": "Elapsed time",
+            "description": "",
+            "datasets": [
+                "log"
+            ]
+        },
+        {
+            "field": "employment-allocation",
+            "name": "Employment allocation",
+            "description": "",
+            "datasets": [
+                "employment-allocation"
+            ]
+        },
+        {
+            "field": "end-date",
+            "name": "End date",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "attribution",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "checksum",
+                "coastal-change-management-area",
+                "collection",
+                "column-field",
+                "column",
+                "combine",
+                "common-land-and-village-green",
+                "company",
+                "concat",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "convert",
+                "datapackage-dataset",
+                "datapackage",
+                "dataset-field",
+                "dataset-resource",
+                "dataset-schema",
+                "dataset",
+                "datatype",
+                "default-value",
+                "default",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "endpoint",
+                "entity",
+                "fact-resource",
+                "fact",
+                "field",
+                "filter",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "issue-type",
+                "issue",
+                "licence",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "log",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "old-entity",
+                "old-resource",
+                "open-space",
+                "organisation-dataset",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "patch",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "phase",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "prefix",
+                "project-status",
+                "project",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provenance",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "realm",
+                "reference",
+                "region",
+                "regional-park-authority",
+                "resource",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "schema-field",
+                "schema",
+                "self-and-custom-buildarea",
+                "severity",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "skip",
+                "source",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "specification-status",
+                "specification",
+                "street",
+                "suitable-alternative-green-space",
+                "theme",
+                "transform",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "typology",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "EndDate",
+            "name": "EndDate",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "endpoint-url",
+            "name": "Endpoint URL",
+            "description": "",
+            "datasets": [
+                "endpoint"
+            ]
+        },
+        {
+            "field": "endpoint",
+            "name": "Endpoint",
+            "description": "",
+            "datasets": [
+                "column",
+                "combine",
+                "concat",
+                "convert",
+                "default-value",
+                "default",
+                "endpoint",
+                "filter",
+                "log",
+                "lookup",
+                "patch",
+                "skip",
+                "source",
+                "transform"
+            ]
+        },
+        {
+            "field": "endpoints",
+            "name": "Endpoints",
+            "description": "",
+            "datasets": [
+                "resource"
+            ]
+        },
+        {
+            "field": "entity-count",
+            "name": "Entity count",
+            "description": "A count of the number of entities",
+            "datasets": [
+                "dataset-resource"
+            ]
+        },
+        {
+            "field": "entity-maximum",
+            "name": "Entity",
+            "description": "",
+            "datasets": [
+                "dataset"
+            ]
+        },
+        {
+            "field": "entity-minimum",
+            "name": "Entity",
+            "description": "",
+            "datasets": [
+                "dataset"
+            ]
+        },
+        {
+            "field": "entity",
+            "name": "Entity",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "attribution",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "company",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "entity",
+                "fact",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "licence",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "old-entity",
+                "open-space",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "reference",
+                "region",
+                "regional-park-authority",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "street",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "entry-count",
+            "name": "Entry count",
+            "description": "A count of the number of entries",
+            "datasets": [
+                "dataset-resource"
+            ]
+        },
+        {
+            "field": "entry-date",
+            "name": "Entry date",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "attribution",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "checksum",
+                "coastal-change-management-area",
+                "collection",
+                "column-field",
+                "column",
+                "combine",
+                "common-land-and-village-green",
+                "company",
+                "concat",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "convert",
+                "datapackage-dataset",
+                "datapackage",
+                "dataset-field",
+                "dataset-resource",
+                "dataset-schema",
+                "dataset",
+                "datatype",
+                "default-value",
+                "default",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "endpoint",
+                "entity",
+                "fact-resource",
+                "fact",
+                "field",
+                "filter",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "issue-type",
+                "issue",
+                "licence",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "log",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "old-entity",
+                "old-resource",
+                "open-space",
+                "organisation-dataset",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "patch",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "phase",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "prefix",
+                "project-status",
+                "project",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provenance",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "realm",
+                "reference",
+                "region",
+                "regional-park-authority",
+                "resource",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "schema-field",
+                "schema",
+                "self-and-custom-buildarea",
+                "severity",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "skip",
+                "source",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "specification-status",
+                "specification",
+                "street",
+                "suitable-alternative-green-space",
+                "theme",
+                "transform",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "typology",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "entry-number",
+            "name": "Entry number",
+            "description": "entry number in a processed resource",
+            "datasets": [
+                "default-value",
+                "default",
+                "fact-resource",
+                "filter",
+                "issue",
+                "lookup",
+                "patch",
+                "skip",
+                "transform"
+            ]
+        },
+        {
+            "field": "esd-inventory",
+            "name": "ESD inventory",
+            "description": "",
+            "datasets": [
+                "local-authority",
+                "organisation"
+            ]
+        },
+        {
+            "field": "event-date",
+            "name": "Event date",
+            "description": "",
+            "datasets": [
+                "development-plan-timetable",
+                "infrastructure-project-log",
+                "planning-application-log"
+            ]
+        },
+        {
+            "field": "exception",
+            "name": "Exception",
+            "description": "",
+            "datasets": [
+                "log"
+            ]
+        },
+        {
+            "field": "fact",
+            "name": "Fact",
+            "description": "",
+            "datasets": [
+                "fact-resource",
+                "fact"
+            ]
+        },
+        {
+            "field": "field-dataset",
+            "name": "Field dataset",
+            "description": "",
+            "datasets": [
+                "dataset-field"
+            ]
+        },
+        {
+            "field": "field",
+            "name": "Field",
+            "description": "",
+            "datasets": [
+                "column-field",
+                "column",
+                "combine",
+                "concat",
+                "dataset-field",
+                "default-value",
+                "default",
+                "fact",
+                "field",
+                "filter",
+                "issue",
+                "patch",
+                "provenance",
+                "schema-field",
+                "transform"
+            ]
+        },
+        {
+            "field": "fields",
+            "name": "Fields",
+            "description": "",
+            "datasets": [
+                "concat"
+            ]
+        },
+        {
+            "field": "FirstAddedDate",
+            "name": "FirstAddedDate",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "flood-risk-level",
+            "name": "Flood risk level",
+            "description": "",
+            "datasets": [
+                "flood-risk-zone"
+            ]
+        },
+        {
+            "field": "flood-risk-type",
+            "name": "Flood risk type",
+            "description": "",
+            "datasets": [
+                "flood-risk-zone"
+            ]
+        },
+        {
+            "field": "further-education-college-region-uk",
+            "name": "Further education college region (UK)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "further-education-college-uk",
+            "name": "Further education college (UK)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "geographies",
+            "name": "Geography",
+            "description": "",
+            "datasets": [
+                "biodiversity-net-gain-assessment",
+                "policy"
+            ]
+        },
+        {
+            "field": "geography",
+            "name": "Geography",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "asset-of-community-value",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "employment-allocation",
+                "geography",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "local-authority-district",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nuclear-safety-zone",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "public-safety-zone-around-airport",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone"
+            ]
+        },
+        {
+            "field": "geojson",
+            "name": "GeoJSON data",
+            "description": "",
+            "datasets": [
+                "entity"
+            ]
+        },
+        {
+            "field": "geom",
+            "name": "Internal BLOB geometry",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "geometry-geom",
+            "name": "Geometry index",
+            "description": "",
+            "datasets": [
+                "entity"
+            ]
+        },
+        {
+            "field": "geometry",
+            "name": "Geometry",
+            "description": "",
+            "datasets": [
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "conservation-area",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "development-plan-geography",
+                "development-policy-area",
+                "employment-allocation",
+                "entity",
+                "flood-risk-zone",
+                "geography",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-project",
+                "internal-drainage-district",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park",
+                "nature-improvement-area",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nuclear-safety-zone",
+                "open-space",
+                "parish",
+                "park-and-garden",
+                "planning-application",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "region",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-zone",
+                "tree",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "GeoX",
+            "name": "GeoX",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "GeoY",
+            "name": "GeoY",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "government-domain",
+            "name": "Government domain",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "government-organisation",
+            "name": "Government organisation",
+            "description": "",
+            "datasets": [
+                "national-park-authority"
+            ]
+        },
+        {
+            "field": "government-service",
+            "name": "Government service",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "green-belt-core",
+            "name": "Green belt urban core",
+            "description": "",
+            "datasets": [
+                "green-belt"
+            ]
+        },
+        {
+            "field": "green-belt",
+            "name": "Green belt",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "ground-area",
+            "name": "Ground area",
+            "description": "The ground area of a site in square metres",
+            "datasets": [
+                "planning-application"
+            ]
+        },
+        {
+            "field": "guardianship-site-and-english-heritage-site",
+            "name": "Guardianship site and english heritage site",
+            "description": "",
+            "datasets": [
+                "guardianship-site-and-english-heritage-site"
+            ]
+        },
+        {
+            "field": "guidance",
+            "name": "Guidance",
+            "description": "Guidance on how a publisher should use the field.",
+            "datasets": [
+                "dataset-field",
+                "field"
+            ]
+        },
+        {
+            "field": "gypsy-and-traveller-site",
+            "name": "Gypsy and traveller site",
+            "description": "",
+            "datasets": [
+                "gypsy-and-traveller-site"
+            ]
+        },
+        {
+            "field": "hash",
+            "name": "Hash",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "hazardous-substances",
+            "name": "Hazardous substances",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "HazardousSubstances",
+            "name": "HazardousSubstances",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "hectares",
+            "name": "Hectares",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "Hectares",
+            "name": "Hectares",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "heritage-action-zone",
+            "name": "Heritage action zone",
+            "description": "",
+            "datasets": [
+                "heritage-action-zone"
+            ]
+        },
+        {
+            "field": "heritage-asset-type",
+            "name": "Heritage asset type",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "heritage-at-risk",
+            "name": "Heritage at risk",
+            "description": "",
+            "datasets": [
+                "heritage-at-risk"
+            ]
+        },
+        {
+            "field": "heritage-coast",
+            "name": "Heritage Coast",
+            "description": "",
+            "datasets": [
+                "heritage-coast"
+            ]
+        },
+        {
+            "field": "heritage-risk-assessment-methodology",
+            "name": "Heritage risk assessment methodology",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "hint",
+            "name": "Hint",
+            "description": "hint for someone entering a field on a form",
+            "datasets": [
+                "dataset-field",
+                "field"
+            ]
+        },
+        {
+            "field": "historic-non-designed-rural-landscape-local-landscape-area",
+            "name": "Historic non designed rural landscape local landscape area",
+            "description": "",
+            "datasets": [
+                "historic-non-designed-rural-landscape-local-landscape-area"
+            ]
+        },
+        {
+            "field": "historic-stone-quarry",
+            "name": "Historic stone quarry",
+            "description": "",
+            "datasets": [
+                "historic-stone-quarry"
+            ]
+        },
+        {
+            "field": "hostname",
+            "name": "Hostname",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "housing-allocation",
+            "name": "Housing allocation",
+            "description": "",
+            "datasets": [
+                "housing-allocation"
+            ]
+        },
+        {
+            "field": "hs2-safeguarded-area",
+            "name": "Hs2 safeguarded area",
+            "description": "",
+            "datasets": [
+                "hs2-safeguarded-area"
+            ]
+        },
+        {
+            "field": "identifier",
+            "name": "Identifier",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "infrastructure-funding-statement",
+            "name": "Infrastructure Funding Statement",
+            "description": "",
+            "datasets": [
+                "infrastructure-funding-statement"
+            ]
+        },
+        {
+            "field": "infrastructure-project-decision",
+            "name": "Infrastructure project decision",
+            "description": "",
+            "datasets": [
+                "infrastructure-project"
+            ]
+        },
+        {
+            "field": "infrastructure-project-event",
+            "name": "Infrastructure project event",
+            "description": "",
+            "datasets": [
+                "infrastructure-project-log"
+            ]
+        },
+        {
+            "field": "infrastructure-project-type",
+            "name": "Infrastructure project type",
+            "description": "",
+            "datasets": [
+                "infrastructure-project"
+            ]
+        },
+        {
+            "field": "infrastructure-project",
+            "name": "Infrastructure project",
+            "description": "",
+            "datasets": [
+                "infrastructure-project-document",
+                "infrastructure-project-log"
+            ]
+        },
+        {
+            "field": "internal-drainage-board",
+            "name": "Internal drainage board",
+            "description": "",
+            "datasets": [
+                "internal-drainage-district"
+            ]
+        },
+        {
+            "field": "internal-drainage-district",
+            "name": "Internal drainage district",
+            "description": "",
+            "datasets": [
+                "internal-drainage-board"
+            ]
+        },
+        {
+            "field": "internal-mime-type",
+            "name": "Internal MIME Type",
+            "description": "The Multipurpose Internet Mail Extensions type assigned to a file within a resource",
+            "datasets": [
+                "dataset-resource"
+            ]
+        },
+        {
+            "field": "internal-path",
+            "name": "Internal path",
+            "description": "Path of a file within an resource",
+            "datasets": [
+                "dataset-resource"
+            ]
+        },
+        {
+            "field": "issue-type",
+            "name": "Issue type",
+            "description": "",
+            "datasets": [
+                "issue-type",
+                "issue"
+            ]
+        },
+        {
+            "field": "item",
+            "name": "JSON",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "jobcentre-district",
+            "name": "Jobcentre district",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "jobcentre-group",
+            "name": "Jobcentre group",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "jobcentre",
+            "name": "Jobcentre",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "json",
+            "name": "JSON data",
+            "description": "",
+            "datasets": [
+                "entity",
+                "specification"
+            ]
+        },
+        {
+            "field": "key-field",
+            "name": "Key field",
+            "description": "",
+            "datasets": [
+                "dataset",
+                "schema"
+            ]
+        },
+        {
+            "field": "LastUpdatedDate",
+            "name": "LastUpdatedDate",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "latitude",
+            "name": "Latitude",
+            "description": "",
+            "datasets": [
+                "address",
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "legal-instrument",
+            "name": "Legal instrument",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "legislation",
+            "name": "Legislation",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "asset-of-community-value",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "conservation-area",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "employment-allocation",
+                "geography",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "internal-drainage-board",
+                "local-authority-district",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "nature-improvement-area",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nuclear-safety-zone",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "public-safety-zone-around-airport",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "special-area-of-conservation",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "wildbelt",
+                "wildlife"
+            ]
+        },
+        {
+            "field": "licence",
+            "name": "Licence",
+            "description": "",
+            "datasets": [
+                "dataset",
+                "licence",
+                "source"
+            ]
+        },
+        {
+            "field": "line-count",
+            "name": "Line count",
+            "description": "A count of the number of lines",
+            "datasets": [
+                "checksum",
+                "dataset-resource"
+            ]
+        },
+        {
+            "field": "line-number",
+            "name": "Line number",
+            "description": "line number in a resource or file",
+            "datasets": [
+                "issue"
+            ]
+        },
+        {
+            "field": "listed-building-grade",
+            "name": "Listed building grade",
+            "description": "",
+            "datasets": [
+                "listed-building-outline",
+                "listed-building",
+                "locally-listed-building"
+            ]
+        },
+        {
+            "field": "listed-building-outline",
+            "name": "Listed building outline",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "listed-building",
+            "name": "Listed building",
+            "description": "",
+            "datasets": [
+                "listed-building-outline",
+                "listed-building"
+            ]
+        },
+        {
+            "field": "local-authority-district",
+            "name": "Local Authority District",
+            "description": "",
+            "datasets": [
+                "green-belt",
+                "local-authority-district",
+                "local-authority"
+            ]
+        },
+        {
+            "field": "local-authority-eng",
+            "name": "Local authority (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "local-authority-nir",
+            "name": "Local authority (Northern Ireland)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "local-authority-sct",
+            "name": "Local authority (Scotland)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "local-authority-type",
+            "name": "Local authority type",
+            "description": "",
+            "datasets": [
+                "local-authority",
+                "organisation"
+            ]
+        },
+        {
+            "field": "local-authority",
+            "name": "Local authority",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "local-enterprise-partnership-area",
+            "name": "Local Enterprise Partnership area",
+            "description": "The boundary of a Local Enterprise Partnership area",
+            "datasets": [
+                "local-enterprise-partnership"
+            ]
+        },
+        {
+            "field": "local-enterprise-partnership",
+            "name": "Local Enterprise Partnership",
+            "description": "Local Enterprise Partnership",
+            "datasets": [
+                "local-authority"
+            ]
+        },
+        {
+            "field": "local-green-space",
+            "name": "Local green space",
+            "description": "",
+            "datasets": [
+                "local-green-space"
+            ]
+        },
+        {
+            "field": "local-nature-recovery-strategy",
+            "name": "Local nature recovery strategy",
+            "description": "",
+            "datasets": [
+                "local-nature-recovery-strategy"
+            ]
+        },
+        {
+            "field": "local-planning-authority",
+            "name": "Local Planning Authority",
+            "description": "The boundary of a Local Planning Authority",
+            "datasets": [
+                "development-corporation",
+                "local-authority",
+                "national-park-authority"
+            ]
+        },
+        {
+            "field": "local-resilience-forum",
+            "name": "Local resilience forum",
+            "description": "",
+            "datasets": [
+                "local-authority",
+                "organisation"
+            ]
+        },
+        {
+            "field": "locally-listed-building",
+            "name": "Locally listed building",
+            "description": "",
+            "datasets": [
+                "locally-listed-building"
+            ]
+        },
+        {
+            "field": "london-square",
+            "name": "London square",
+            "description": "",
+            "datasets": [
+                "london-square"
+            ]
+        },
+        {
+            "field": "long-established-woodland",
+            "name": "Long established woodland",
+            "description": "",
+            "datasets": [
+                "long-established-woodland"
+            ]
+        },
+        {
+            "field": "long-protected-woodland",
+            "name": "Long protected woodland",
+            "description": "",
+            "datasets": [
+                "long-protected-woodland"
+            ]
+        },
+        {
+            "field": "longitude",
+            "name": "Longitude",
+            "description": "",
+            "datasets": [
+                "address",
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "lookup",
+            "name": "Lookup",
+            "description": "Lookup entities",
+            "datasets": []
+        },
+        {
+            "field": "made-date",
+            "name": "Made date",
+            "description": "The date a tree preservation order was \"made\". From this date the included tree(s), from a planning perspective, are considered to be covered by a tree preservation order.",
+            "datasets": [
+                "tree-preservation-order"
+            ]
+        },
+        {
+            "field": "main-river",
+            "name": "Main river",
+            "description": "",
+            "datasets": [
+                "main-river"
+            ]
+        },
+        {
+            "field": "maximum-net-dwellings",
+            "name": "Maximum net dwellings",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "member-organisation",
+            "name": "Organisation which is a member of this organisation",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "member-organisations",
+            "name": "Organisations which are a member of this organisation",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "metric",
+            "name": "metric",
+            "description": "A metric",
+            "datasets": []
+        },
+        {
+            "field": "metropolitan-open-land",
+            "name": "Metropolitan open land",
+            "description": "",
+            "datasets": [
+                "metropolitan-open-land"
+            ]
+        },
+        {
+            "field": "mime-type",
+            "name": "MIME Type",
+            "description": "The Multipurpose Internet Mail Extensions type assigned to a resource",
+            "datasets": [
+                "dataset-resource",
+                "resource"
+            ]
+        },
+        {
+            "field": "mineral-safeguarding-area",
+            "name": "Mineral safeguarding area",
+            "description": "",
+            "datasets": [
+                "mineral-safeguarding-area"
+            ]
+        },
+        {
+            "field": "minimum-net-dwellings",
+            "name": "Minimum net dwellings",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "MinNetDwellings",
+            "name": "Minimum net dwellings",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "name-cy",
+            "name": "Name (Welsh)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "name",
+            "name": "Name",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "collection",
+                "common-land-and-village-green",
+                "company",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "datapackage",
+                "dataset",
+                "datatype",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "entity",
+                "field",
+                "flood-risk-level",
+                "flood-risk-type",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "issue-type",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "open-space",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "phase",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "project-status",
+                "project",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "realm",
+                "region",
+                "regional-park-authority",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "schema",
+                "self-and-custom-buildarea",
+                "severity",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "specification-status",
+                "specification",
+                "street",
+                "suitable-alternative-green-space",
+                "theme",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "typology",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "national-park-authority",
+            "name": "National park authority",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "national-park",
+            "name": "National park",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "nature-improvement-area",
+            "name": "Nature improvement area",
+            "description": "",
+            "datasets": [
+                "nature-improvement-area"
+            ]
+        },
+        {
+            "field": "neighbourhood-forum",
+            "name": "Neighbourhood forum",
+            "description": "",
+            "datasets": [
+                "neighbourhood-forum"
+            ]
+        },
+        {
+            "field": "neighbourhood-plan-area",
+            "name": "Neighbourhood Plan Area",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "NetDwellingsRangeFrom",
+            "name": "Minimum net dwellings",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "NetDwellingsRangeTo",
+            "name": "Maximum net dwellings",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "non-designated-and-locally-listed-historic-asset",
+            "name": "Non designated and locally listed historic asset",
+            "description": "",
+            "datasets": [
+                "non-designated-and-locally-listed-historic-asset"
+            ]
+        },
+        {
+            "field": "non-designated-archeology-asset-of-national-importance",
+            "name": "Non designated archeology asset of national importance",
+            "description": "",
+            "datasets": [
+                "non-designated-archeology-asset-of-national-importance"
+            ]
+        },
+        {
+            "field": "nonprofit",
+            "name": "Nonprofit organisation",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "notes",
+            "name": "Notes",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "company",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "old-entity",
+                "old-resource",
+                "open-space",
+                "organisation-dataset",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "region",
+                "regional-park-authority",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "street",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "Notes",
+            "name": "Notes",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "nuclear-safety-zone",
+            "name": "Nuclear safety zone",
+            "description": "",
+            "datasets": [
+                "nuclear-safety-zone"
+            ]
+        },
+        {
+            "field": "number",
+            "name": "Number",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "official-name-cy",
+            "name": "Official name (Welsh)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "official-name",
+            "name": "Official name",
+            "description": "",
+            "datasets": [
+                "organisation"
+            ]
+        },
+        {
+            "field": "old-entity",
+            "name": "Old entity",
+            "description": "",
+            "datasets": [
+                "old-entity"
+            ]
+        },
+        {
+            "field": "old-resource",
+            "name": "Old resource",
+            "description": "",
+            "datasets": [
+                "old-resource"
+            ]
+        },
+        {
+            "field": "open-space",
+            "name": "Open space",
+            "description": "",
+            "datasets": [
+                "open-space"
+            ]
+        },
+        {
+            "field": "opendatacommunities-area",
+            "name": "Open Data Communities area",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "opendatacommunities-organisation",
+            "name": "Open Data Communities organisation",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "opendatacommunities-uri",
+            "name": "Open Data Communities URI",
+            "description": "",
+            "datasets": [
+                "development-corporation",
+                "government-organisation",
+                "local-authority",
+                "national-park-authority",
+                "organisation",
+                "passenger-transport-executive",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "openstreetmap",
+            "name": "OpenStreetMap relation",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "organisation-entity",
+            "name": "Organisation entity",
+            "description": "",
+            "datasets": [
+                "entity"
+            ]
+        },
+        {
+            "field": "organisation",
+            "name": "Organisation",
+            "description": "",
+            "datasets": [
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "design-code-rule",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement",
+                "development-corporation",
+                "development-plan-document",
+                "development-plan-timetable",
+                "development-policy-area",
+                "development-policy",
+                "employment-allocation",
+                "flood-risk-zone",
+                "geography",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-document",
+                "infrastructure-project-log",
+                "infrastructure-project",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "open-space",
+                "organisation-dataset",
+                "organisation",
+                "parish",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application",
+                "policy",
+                "prefix",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "region",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-of-special-scientific-interest",
+                "source",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone",
+                "tree",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "OrganisationLabel",
+            "name": "OrganisationLabel",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "organisations",
+            "name": "Organisations",
+            "description": "",
+            "datasets": [
+                "biodiversity-net-gain-assessment",
+                "development-plan",
+                "document",
+                "resource"
+            ]
+        },
+        {
+            "field": "OrganisationURI",
+            "name": "OrganisationURI",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "ownership-status",
+            "name": "Ownership status",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "OwnershipStatus",
+            "name": "OwnershipStatus",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "paint-options",
+            "name": "Paint options",
+            "description": "Colour, opacity and other paint options for displaying the dataset on a map",
+            "datasets": [
+                "dataset"
+            ]
+        },
+        {
+            "field": "parameter",
+            "name": "Parameter",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "parameters",
+            "name": "Parameters",
+            "description": "",
+            "datasets": [
+                "convert",
+                "endpoint"
+            ]
+        },
+        {
+            "field": "parent-article-4-direction-rule",
+            "name": "Parent article 4 direction rule",
+            "description": "",
+            "datasets": [
+                "article-4-direction-rule"
+            ]
+        },
+        {
+            "field": "parent-field",
+            "name": "Parent field",
+            "description": "",
+            "datasets": [
+                "field"
+            ]
+        },
+        {
+            "field": "parish",
+            "name": "Parish",
+            "description": "",
+            "datasets": [
+                "parish"
+            ]
+        },
+        {
+            "field": "park-and-garden-grade",
+            "name": "Park and garden grade",
+            "description": "",
+            "datasets": [
+                "park-and-garden-grade",
+                "park-and-garden"
+            ]
+        },
+        {
+            "field": "park-and-garden",
+            "name": "Park and garden",
+            "description": "",
+            "datasets": [
+                "park-and-garden"
+            ]
+        },
+        {
+            "field": "parliament-thesaurus",
+            "name": "Parliament thesaurus identifier",
+            "description": "",
+            "datasets": [
+                "development-corporation",
+                "government-organisation",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-resilience-forum",
+                "national-park-authority",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "passenger-transport-executive",
+            "name": "Passenger transport executive",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "path",
+            "name": "Path",
+            "description": "Path of a file",
+            "datasets": [
+                "checksum"
+            ]
+        },
+        {
+            "field": "pattern",
+            "name": "Pattern",
+            "description": "",
+            "datasets": [
+                "filter",
+                "patch",
+                "skip"
+            ]
+        },
+        {
+            "field": "period-end-date",
+            "name": "Period end date",
+            "description": "",
+            "datasets": [
+                "development-plan",
+                "development-policy-metric"
+            ]
+        },
+        {
+            "field": "period-start-date",
+            "name": "Period start date",
+            "description": "",
+            "datasets": [
+                "development-plan",
+                "development-policy-metric"
+            ]
+        },
+        {
+            "field": "PermissionDate",
+            "name": "Planning permission date",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "PermissionType",
+            "name": "Planning permission type",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "permitted-development-right-part",
+            "name": "Permitted development right part",
+            "description": "",
+            "datasets": [
+                "permitted-development-right"
+            ]
+        },
+        {
+            "field": "permitted-development-right",
+            "name": "Permitted development right",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "permitted-development-rights",
+            "name": "Permitted development rights",
+            "description": "",
+            "datasets": [
+                "article-4-direction-area"
+            ]
+        },
+        {
+            "field": "phase",
+            "name": "Phase",
+            "description": "",
+            "datasets": [
+                "dataset"
+            ]
+        },
+        {
+            "field": "pipeline",
+            "name": "Pipeline",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "pipelines",
+            "name": "Pipelines",
+            "description": "",
+            "datasets": [
+                "source"
+            ]
+        },
+        {
+            "field": "planning-application-category",
+            "name": "Planning application category",
+            "description": "A grouping of the planning-application-type i.e. full, householder, change of use",
+            "datasets": [
+                "planning-application-type"
+            ]
+        },
+        {
+            "field": "planning-application-status",
+            "name": "Planning application status",
+            "description": "",
+            "datasets": [
+                "planning-application-log",
+                "planning-application"
+            ]
+        },
+        {
+            "field": "planning-application-type",
+            "name": "Planning application type",
+            "description": "",
+            "datasets": [
+                "planning-application"
+            ]
+        },
+        {
+            "field": "planning-application",
+            "name": "Planning application",
+            "description": "",
+            "datasets": [
+                "biodiversity-net-gain-assessment",
+                "developer-agreement",
+                "planning-application-document",
+                "planning-application-log"
+            ]
+        },
+        {
+            "field": "planning-decision-type",
+            "name": "Planning decision type",
+            "description": "The method used to make the decision on a planning application",
+            "datasets": [
+                "planning-application"
+            ]
+        },
+        {
+            "field": "planning-decision",
+            "name": "Planning decision",
+            "description": "The decision of a Local Planning Authority on an planning application",
+            "datasets": [
+                "planning-application"
+            ]
+        },
+        {
+            "field": "planning-permission-date",
+            "name": "Planning permission date",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "planning-permission-history",
+            "name": "Planning permission history",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "planning-permission-status",
+            "name": "Planning permission status",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "planning-permission-type",
+            "name": "Planning permission type",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "PlanningHistory",
+            "name": "Planning permission history",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "PlanningStatus",
+            "name": "Planning permission status",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "plugin",
+            "name": "Plugin",
+            "description": "",
+            "datasets": [
+                "convert",
+                "endpoint"
+            ]
+        },
+        {
+            "field": "plural",
+            "name": "Plural name",
+            "description": "",
+            "datasets": [
+                "dataset",
+                "typology"
+            ]
+        },
+        {
+            "field": "point-geom",
+            "name": "Point index",
+            "description": "",
+            "datasets": [
+                "entity"
+            ]
+        },
+        {
+            "field": "point",
+            "name": "Point",
+            "description": "",
+            "datasets": [
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "conservation-area",
+                "contaminated-land",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "development-plan-geography",
+                "development-policy-area",
+                "employment-allocation",
+                "entity",
+                "flood-risk-zone",
+                "geography",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-project",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "nature-improvement-area",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nuclear-safety-zone",
+                "open-space",
+                "parish",
+                "park-and-garden",
+                "planning-application",
+                "planning-application",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "region",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-zone",
+                "tree",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "policy",
+            "name": "Policy",
+            "description": "",
+            "datasets": [
+                "policy"
+            ]
+        },
+        {
+            "field": "prefix-uri",
+            "name": "CURIE prefix URI",
+            "description": "",
+            "datasets": [
+                "prefix"
+            ]
+        },
+        {
+            "field": "prefix",
+            "name": "CURIE prefix",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "company",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "dataset",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "entity",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "open-space",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "prefix",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "reference",
+                "region",
+                "regional-park-authority",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "specification",
+                "street",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "principal-local-authority",
+            "name": "Principal local authority (Wales)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "prison-estate",
+            "name": "Prison estate",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "project-status",
+            "name": "Project status",
+            "description": "",
+            "datasets": [
+                "project-status",
+                "project"
+            ]
+        },
+        {
+            "field": "project",
+            "name": "Project",
+            "description": "",
+            "datasets": [
+                "organisation-dataset",
+                "project"
+            ]
+        },
+        {
+            "field": "proposed-ramsar-site",
+            "name": "Proposed ramsar site",
+            "description": "",
+            "datasets": [
+                "proposed-ramsar-site"
+            ]
+        },
+        {
+            "field": "protected-land",
+            "name": "Protected land",
+            "description": "",
+            "datasets": [
+                "protected-land"
+            ]
+        },
+        {
+            "field": "protected-view",
+            "name": "Protected view",
+            "description": "",
+            "datasets": [
+                "protected-view"
+            ]
+        },
+        {
+            "field": "protected-wreck-site",
+            "name": "Protected wreck site",
+            "description": "",
+            "datasets": [
+                "protected-wreck-site"
+            ]
+        },
+        {
+            "field": "provenance",
+            "name": "Provenance",
+            "description": "",
+            "datasets": [
+                "provenance"
+            ]
+        },
+        {
+            "field": "provision-reason",
+            "name": "Provision reason",
+            "description": "",
+            "datasets": [
+                "organisation-dataset",
+                "project",
+                "provision-reason"
+            ]
+        },
+        {
+            "field": "public-authority",
+            "name": "Public authority",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "public-safety-zone-around-airport",
+            "name": "Public safety zone around airport",
+            "description": "",
+            "datasets": [
+                "public-safety-zone-around-airport"
+            ]
+        },
+        {
+            "field": "purpose",
+            "name": "Purpose",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "ramsar-site",
+            "name": "Ramsar site",
+            "description": "",
+            "datasets": [
+                "ramsar"
+            ]
+        },
+        {
+            "field": "ramsar",
+            "name": "Ramsar",
+            "description": "",
+            "datasets": [
+                "ramsar"
+            ]
+        },
+        {
+            "field": "realm",
+            "name": "Realm",
+            "description": "",
+            "datasets": [
+                "dataset"
+            ]
+        },
+        {
+            "field": "reference-entity",
+            "name": "Reference entity",
+            "description": "",
+            "datasets": [
+                "fact"
+            ]
+        },
+        {
+            "field": "reference",
+            "name": "Reference",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "coastal-change-management-area",
+                "common-land-and-village-green",
+                "company",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "entity",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "open-space",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "phase",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "realm",
+                "reference",
+                "region",
+                "regional-park-authority",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "self-and-custom-buildarea",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "street",
+                "suitable-alternative-green-space",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "region",
+            "name": "Region",
+            "description": "",
+            "datasets": [
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "local-authority",
+                "national-park-authority",
+                "organisation",
+                "passenger-transport-executive",
+                "region",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "regional-park-authority",
+            "name": "Regional park authority",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "register",
+            "name": "Register",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "registration-district",
+            "name": "Registration district",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "registry",
+            "name": "Registry",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "replacement-field",
+            "name": "Replacement field",
+            "description": "",
+            "datasets": [
+                "field",
+                "transform"
+            ]
+        },
+        {
+            "field": "request-headers",
+            "name": "Request headers",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "resource-url",
+            "name": "Resource URL",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "resource",
+            "name": "Resource",
+            "description": "",
+            "datasets": [
+                "column-field",
+                "column",
+                "combine",
+                "concat",
+                "convert",
+                "dataset-resource",
+                "default-value",
+                "default",
+                "fact-resource",
+                "filter",
+                "issue",
+                "log",
+                "lookup",
+                "old-resource",
+                "patch",
+                "provenance",
+                "resource",
+                "skip",
+                "transform"
+            ]
+        },
+        {
+            "field": "response-headers",
+            "name": "Response headers",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "safeguarded-aerodrome",
+            "name": "Safeguarded aerodrome",
+            "description": "",
+            "datasets": [
+                "safeguarded-aerodrome"
+            ]
+        },
+        {
+            "field": "safeguarded-military-explosives-site",
+            "name": "Safeguarded military explosives site",
+            "description": "",
+            "datasets": [
+                "safeguarded-military-explosives-site"
+            ]
+        },
+        {
+            "field": "safeguarded-wharf",
+            "name": "Safeguarded wharf",
+            "description": "",
+            "datasets": [
+                "safeguarded-wharf"
+            ]
+        },
+        {
+            "field": "safety-hazard-area",
+            "name": "Safety hazard area",
+            "description": "",
+            "datasets": [
+                "safety-hazard-area"
+            ]
+        },
+        {
+            "field": "scheduled-monument",
+            "name": "Scheduled monument",
+            "description": "",
+            "datasets": [
+                "scheduled-monument"
+            ]
+        },
+        {
+            "field": "schema",
+            "name": "Schema",
+            "description": "",
+            "datasets": [
+                "dataset-schema",
+                "schema-field",
+                "schema"
+            ]
+        },
+        {
+            "field": "school-type-eng",
+            "name": "School type (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "scope-field",
+            "name": "Scope field",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "self-and-custom-buildarea",
+            "name": "Self and custom buildarea",
+            "description": "",
+            "datasets": [
+                "self-and-custom-buildarea"
+            ]
+        },
+        {
+            "field": "separator",
+            "name": "Separator",
+            "description": "",
+            "datasets": [
+                "combine",
+                "concat"
+            ]
+        },
+        {
+            "field": "severity",
+            "name": "Severity",
+            "description": "",
+            "datasets": [
+                "issue-type",
+                "severity"
+            ]
+        },
+        {
+            "field": "shielding-hub",
+            "name": "Shielding hub",
+            "description": "",
+            "datasets": [
+                "organisation"
+            ]
+        },
+        {
+            "field": "short-name",
+            "name": "Short name",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "site-address",
+            "name": "Site address",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "site-categories",
+            "name": "Site category",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "site-category",
+            "name": "Site category",
+            "description": "",
+            "datasets": [
+                "site-category"
+            ]
+        },
+        {
+            "field": "site-of-special-scientific-interest",
+            "name": "Site of special scientific interest",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "site-plan-url",
+            "name": "Site plan URL",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "site",
+            "name": "Site",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "SiteInformation",
+            "name": "Site information",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "SiteNameAddress",
+            "name": "SiteNameAddress",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "SiteplanURL",
+            "name": "SiteplanURL",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "SiteReference",
+            "name": "SiteReference",
+            "description": "",
+            "datasets": [
+                "brownfield-land"
+            ]
+        },
+        {
+            "field": "slug-prefix",
+            "name": "Slug prefix",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "slug",
+            "name": "Slug",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "source",
+            "name": "Source",
+            "description": "",
+            "datasets": [
+                "source"
+            ]
+        },
+        {
+            "field": "special-area-of-conservation",
+            "name": "Special area of conservation",
+            "description": "",
+            "datasets": [
+                "special-area-of-conservation"
+            ]
+        },
+        {
+            "field": "special-protection-area",
+            "name": "Special protection area",
+            "description": "",
+            "datasets": [
+                "ramsar"
+            ]
+        },
+        {
+            "field": "specification-status",
+            "name": "Specification status",
+            "description": "",
+            "datasets": [
+                "specification-status",
+                "specification"
+            ]
+        },
+        {
+            "field": "specification",
+            "name": "Specification",
+            "description": "",
+            "datasets": [
+                "organisation-dataset",
+                "specification"
+            ]
+        },
+        {
+            "field": "specifications",
+            "name": "Specifications",
+            "description": "",
+            "datasets": [
+                "project"
+            ]
+        },
+        {
+            "field": "start-date",
+            "name": "Start date",
+            "description": "",
+            "datasets": [
+                "address",
+                "ancient-woodland-status",
+                "ancient-woodland",
+                "area-of-outstanding-natural-beauty",
+                "article-4-direction-area",
+                "article-4-direction-rule",
+                "article-4-direction",
+                "asset-of-community-value",
+                "attribution",
+                "battlefield",
+                "best-and-most-versatile-agricultural-land",
+                "biodiversity-net-gain-assessment",
+                "brownfield-land",
+                "brownfield-site",
+                "buffer-zone",
+                "building-preservation-notice",
+                "category",
+                "central-activities-zone",
+                "certificate-of-immunity",
+                "checksum",
+                "coastal-change-management-area",
+                "collection",
+                "column-field",
+                "column",
+                "combine",
+                "common-land-and-village-green",
+                "company",
+                "concat",
+                "conservation-area-document-type",
+                "conservation-area-document",
+                "conservation-area",
+                "contaminated-land",
+                "contribution-funding-status",
+                "contribution-purpose",
+                "control-of-major-accident-hazards-site",
+                "convert",
+                "datapackage-dataset",
+                "datapackage",
+                "dataset-field",
+                "dataset-resource",
+                "dataset-schema",
+                "dataset",
+                "datatype",
+                "default-value",
+                "default",
+                "design-code-area",
+                "design-code-category",
+                "design-code-rule",
+                "design-code-status",
+                "design-code",
+                "developer-agreement-contribution",
+                "developer-agreement-transaction",
+                "developer-agreement-type",
+                "developer-agreement",
+                "development-corporation",
+                "development-metric",
+                "development-plan-document-type",
+                "development-plan-document",
+                "development-plan-event",
+                "development-plan-geography-type",
+                "development-plan-geography",
+                "development-plan-status",
+                "development-plan-timetable",
+                "development-plan-type",
+                "development-plan",
+                "development-policy-area",
+                "development-policy-category",
+                "development-policy-metric",
+                "development-policy",
+                "document-type",
+                "document",
+                "employment-allocation",
+                "endpoint",
+                "entity",
+                "fact-resource",
+                "fact",
+                "field",
+                "filter",
+                "flood-risk-level",
+                "flood-risk-type",
+                "flood-risk-zone",
+                "geography",
+                "government-organisation",
+                "green-belt-core",
+                "green-belt",
+                "guardianship-site-and-english-heritage-site",
+                "gypsy-and-traveller-site",
+                "heritage-action-zone",
+                "heritage-at-risk",
+                "heritage-coast",
+                "historic-non-designed-rural-landscape-local-landscape-area",
+                "historic-stone-quarry",
+                "housing-allocation",
+                "hs2-safeguarded-area",
+                "infrastructure-funding-statement",
+                "infrastructure-project-decision",
+                "infrastructure-project-document-type",
+                "infrastructure-project-document",
+                "infrastructure-project-event",
+                "infrastructure-project-log",
+                "infrastructure-project-type",
+                "infrastructure-project",
+                "internal-drainage-board",
+                "internal-drainage-district",
+                "issue-type",
+                "issue",
+                "licence",
+                "listed-building-grade",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-district",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-green-space",
+                "local-nature-recovery-strategy",
+                "local-planning-authority",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "log",
+                "london-square",
+                "long-established-woodland",
+                "long-protected-woodland",
+                "lookup",
+                "main-river",
+                "metropolitan-open-land",
+                "mineral-safeguarding-area",
+                "national-park-authority",
+                "national-park",
+                "nature-improvement-area",
+                "neighbourhood-forum",
+                "non-designated-and-locally-listed-historic-asset",
+                "non-designated-archeology-asset-of-national-importance",
+                "nonprofit",
+                "nuclear-safety-zone",
+                "old-entity",
+                "old-resource",
+                "open-space",
+                "organisation-dataset",
+                "organisation",
+                "ownership-status",
+                "parish",
+                "park-and-garden-grade",
+                "park-and-garden",
+                "passenger-transport-executive",
+                "patch",
+                "permitted-development-right-part",
+                "permitted-development-right",
+                "phase",
+                "planning-application-category",
+                "planning-application-document",
+                "planning-application-log",
+                "planning-application-status",
+                "planning-application-type",
+                "planning-application",
+                "planning-decision-type",
+                "planning-decision",
+                "planning-development-category",
+                "planning-permission-status",
+                "planning-permission-type",
+                "policy",
+                "prefix",
+                "project-status",
+                "project",
+                "proposed-ramsar-site",
+                "protected-land",
+                "protected-view",
+                "protected-wreck-site",
+                "provenance",
+                "provision-reason",
+                "public-authority",
+                "public-safety-zone-around-airport",
+                "ramsar",
+                "realm",
+                "reference",
+                "region",
+                "regional-park-authority",
+                "resource",
+                "safeguarded-aerodrome",
+                "safeguarded-military-explosives-site",
+                "safeguarded-wharf",
+                "safety-hazard-area",
+                "scheduled-monument",
+                "schema-field",
+                "schema",
+                "self-and-custom-buildarea",
+                "severity",
+                "site-category",
+                "site-of-special-scientific-interest",
+                "skip",
+                "source",
+                "special-area-of-conservation",
+                "special-protection-area",
+                "specification-status",
+                "specification",
+                "street",
+                "suitable-alternative-green-space",
+                "theme",
+                "transform",
+                "transport-under-tcpa-route",
+                "tree-preservation-order",
+                "tree-preservation-zone-type",
+                "tree-preservation-zone",
+                "tree",
+                "typology",
+                "waste-authority",
+                "wildbelt",
+                "wildlife",
+                "world-heritage-site-buffer-zone",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "statistical-geographies",
+            "name": "Statistical geographies",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-county-eng",
+            "name": "Country statistical geography",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-local-government-district-nir",
+            "name": "Local government district statistical geography (Northern Ireland)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-london-borough-eng",
+            "name": "London borough statistical geography (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-metropolitan-district-eng",
+            "name": "Metropolitan district statistical geography (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-non-metropolitan-district-eng",
+            "name": "Non-metropolitan district statistical geography (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-registration-district-eng",
+            "name": "Registration district statistical geography (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-registration-district-wls",
+            "name": "Registration district statistical geography (Wales)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-unitary-authority-eng",
+            "name": "Unitary authority statistical geography (England)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography-unitary-authority-wls",
+            "name": "Unitary authority statistical geography (Wales)",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "statistical-geography",
+            "name": "Statistical geography",
+            "description": "",
+            "datasets": [
+                "development-corporation",
+                "government-organisation",
+                "local-authority",
+                "local-resilience-forum",
+                "national-park-authority",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "status",
+            "name": "Status",
+            "description": "",
+            "datasets": [
+                "log",
+                "old-entity",
+                "old-resource"
+            ]
+        },
+        {
+            "field": "strategic",
+            "name": "Strategic",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "street",
+            "name": "Street",
+            "description": "",
+            "datasets": [
+                "street"
+            ]
+        },
+        {
+            "field": "string",
+            "name": "String",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "suitable-alternative-green-space",
+            "name": "Suitable alternative green space",
+            "description": "",
+            "datasets": [
+                "suitable-alternative-green-space"
+            ]
+        },
+        {
+            "field": "territory",
+            "name": "Territory",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "text",
+            "name": "Text",
+            "description": "Markdown content describing the technical specification of a field",
+            "datasets": [
+                "attribution",
+                "datapackage",
+                "dataset",
+                "datatype",
+                "field",
+                "licence",
+                "typology"
+            ]
+        },
+        {
+            "field": "theme",
+            "name": "Theme",
+            "description": "",
+            "datasets": [
+                "theme"
+            ]
+        },
+        {
+            "field": "themes",
+            "name": "Themes",
+            "description": "",
+            "datasets": [
+                "dataset"
+            ]
+        },
+        {
+            "field": "transport-under-tcpa-route",
+            "name": "Transport under tcpa route",
+            "description": "",
+            "datasets": [
+                "transport-under-tcpa-route"
+            ]
+        },
+        {
+            "field": "tree-preservation-order-tree",
+            "name": "Tree preservation order tree",
+            "description": "",
+            "datasets": [
+                "tree"
+            ]
+        },
+        {
+            "field": "tree-preservation-order",
+            "name": "Tree preservation order",
+            "description": "",
+            "datasets": [
+                "tree-preservation-zone",
+                "tree"
+            ]
+        },
+        {
+            "field": "tree-preservation-zone-type",
+            "name": "Tree preservation zone type",
+            "description": "A category of tree preservation zone",
+            "datasets": [
+                "tree-preservation-zone"
+            ]
+        },
+        {
+            "field": "tree-preservation-zone",
+            "name": "Tree preservation zone",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "tree-species-list",
+            "name": "Tree species list",
+            "description": "A list of tree species",
+            "datasets": [
+                "tree-preservation-zone"
+            ]
+        },
+        {
+            "field": "tree-species",
+            "name": "Tree species",
+            "description": "A species of tree",
+            "datasets": [
+                "tree"
+            ]
+        },
+        {
+            "field": "tree",
+            "name": "Tree",
+            "description": "",
+            "datasets": [
+                "tree"
+            ]
+        },
+        {
+            "field": "twitter",
+            "name": "Twitter",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "company",
+                "development-corporation",
+                "government-organisation",
+                "internal-drainage-board",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-resilience-forum",
+                "national-park-authority",
+                "neighbourhood-forum",
+                "nonprofit",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "typology",
+            "name": "Typology",
+            "description": "",
+            "datasets": [
+                "dataset",
+                "entity",
+                "field",
+                "typology"
+            ]
+        },
+        {
+            "field": "uk",
+            "name": "UK",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "units",
+            "name": "Units",
+            "description": "",
+            "datasets": [
+                "developer-agreement-contribution",
+                "developer-agreement-transaction"
+            ]
+        },
+        {
+            "field": "unused",
+            "name": "Unused",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "uprn",
+            "name": "UPRN",
+            "description": "Unique Property Reference Number",
+            "datasets": [
+                "article-4-direction-area",
+                "planning-application",
+                "tree-preservation-zone"
+            ]
+        },
+        {
+            "field": "uri-template",
+            "name": "RFC6570 template URL",
+            "description": "",
+            "datasets": [
+                "field"
+            ]
+        },
+        {
+            "field": "url",
+            "name": "URL",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "value",
+            "name": "Value",
+            "description": "",
+            "datasets": [
+                "default-value",
+                "development-policy-metric",
+                "fact",
+                "issue",
+                "lookup",
+                "patch",
+                "provenance"
+            ]
+        },
+        {
+            "field": "version",
+            "name": "Version",
+            "description": "",
+            "datasets": [
+                "dataset",
+                "specification"
+            ]
+        },
+        {
+            "field": "waste-authority",
+            "name": "Waste authority",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "website-url",
+            "name": "Website URL",
+            "description": "",
+            "datasets": [
+                "government-organisation"
+            ]
+        },
+        {
+            "field": "website",
+            "name": "Website",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "company",
+                "development-corporation",
+                "government-organisation",
+                "internal-drainage-board",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-resilience-forum",
+                "national-park-authority",
+                "neighbourhood-forum",
+                "nonprofit",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "regional-park-authority",
+                "waste-authority"
+            ]
+        },
+        {
+            "field": "wikidata-property",
+            "name": "Wikidata property",
+            "description": "",
+            "datasets": [
+                "field"
+            ]
+        },
+        {
+            "field": "wikidata",
+            "name": "Wikidata item",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "battlefield",
+                "company",
+                "dataset",
+                "development-corporation",
+                "government-organisation",
+                "green-belt-core",
+                "internal-drainage-board",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "national-park-authority",
+                "neighbourhood-forum",
+                "nonprofit",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "ramsar",
+                "regional-park-authority",
+                "site-of-special-scientific-interest",
+                "special-protection-area",
+                "typology",
+                "waste-authority",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "wikipedia-url",
+            "name": "Wikipedia page",
+            "description": "",
+            "datasets": []
+        },
+        {
+            "field": "wikipedia",
+            "name": "Wikipedia page",
+            "description": "",
+            "datasets": [
+                "area-of-outstanding-natural-beauty",
+                "battlefield",
+                "company",
+                "dataset",
+                "development-corporation",
+                "government-organisation",
+                "green-belt-core",
+                "internal-drainage-board",
+                "listed-building-outline",
+                "listed-building",
+                "local-authority-type",
+                "local-authority",
+                "local-enterprise-partnership",
+                "local-resilience-forum",
+                "locally-listed-building",
+                "national-park-authority",
+                "neighbourhood-forum",
+                "nonprofit",
+                "organisation",
+                "passenger-transport-executive",
+                "public-authority",
+                "ramsar",
+                "regional-park-authority",
+                "site-of-special-scientific-interest",
+                "special-protection-area",
+                "typology",
+                "waste-authority",
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "wildbelt",
+            "name": "Wildbelt",
+            "description": "",
+            "datasets": [
+                "wildbelt"
+            ]
+        },
+        {
+            "field": "wildlife",
+            "name": "Wildlife",
+            "description": "",
+            "datasets": [
+                "wildlife"
+            ]
+        },
+        {
+            "field": "world-heritage-convention-site",
+            "name": "UNESCO World Heritage Convention site",
+            "description": "",
+            "datasets": [
+                "world-heritage-site"
+            ]
+        },
+        {
+            "field": "world-heritage-site",
+            "name": "World heritage site",
+            "description": "",
+            "datasets": [
+                "world-heritage-site-buffer-zone"
+            ]
+        }
+    ]
+}
