@@ -1,10 +1,12 @@
 {
-    "created": "2023-10-23",
+    "created": "2023-10-24",
     "fields": [
         {
             "field": "address-text",
             "name": "Address text",
             "description": "Address as a single line of text, separated by commas",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "article-4-direction-area",
@@ -18,6 +20,8 @@
             "field": "address",
             "name": "Address",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "listed-building-outline",
@@ -28,6 +32,8 @@
             "field": "addressbase-custodian",
             "name": "AddressBase custodian",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "government-organisation",
                 "local-authority",
@@ -38,6 +44,8 @@
             "field": "adopted-date",
             "name": "Adopted date",
             "description": "The date a plan is officially adopted.",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan"
             ]
@@ -46,6 +54,8 @@
             "field": "amount",
             "name": "Amount",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-contribution",
                 "developer-agreement-transaction"
@@ -55,6 +65,8 @@
             "field": "ancient-woodland-status",
             "name": "Ancient woodland status",
             "description": "Status of an ancient woodland",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland"
             ]
@@ -63,6 +75,8 @@
             "field": "ancient-woodland",
             "name": "Ancient Woodland",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland"
             ]
@@ -71,6 +85,8 @@
             "field": "applicant-organisation",
             "name": "Applicant organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project"
             ]
@@ -79,36 +95,48 @@
             "field": "archaelogy-area-type",
             "name": "Archaelogy area type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "area-of-outstanding-natural-beauty",
             "name": "Area of Outstanding Natural Beauty",
             "description": "A protected area of countryside with a distinctive character and natural beauty",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "article-4-direction-area",
             "name": "Article-4 direction area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "article-4-direction-rule",
             "name": "Article 4 direction rule",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "article-4-direction-rules",
             "name": "Article-4 direction rules",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "article-4-direction",
             "name": "Article-4 direction",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "article-4-direction-area"
             ]
@@ -117,6 +145,8 @@
             "field": "asset-of-community-value",
             "name": "Asset of community value",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "asset-of-community-value"
             ]
@@ -125,6 +155,8 @@
             "field": "attribution",
             "name": "Attribution",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "attribution",
                 "dataset",
@@ -135,12 +167,16 @@
             "field": "battlefield",
             "name": "Battlefield",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "best-and-most-versatile-agricultural-land",
             "name": "Best and most versatile agricultural land",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "best-and-most-versatile-agricultural-land"
             ]
@@ -149,6 +185,8 @@
             "field": "billing-authority",
             "name": "Billing authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "government-organisation",
                 "local-authority",
@@ -163,18 +201,24 @@
             "field": "biodiversity-net-gain-assessment",
             "name": "Biodiversity net gain assessment",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "blob",
             "name": "BLOB",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "brownfield-land",
             "name": "Brownfield Land",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -183,6 +227,8 @@
             "field": "brownfield-site",
             "name": "Brownfield Site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-site"
             ]
@@ -191,6 +237,8 @@
             "field": "buffer-zone",
             "name": "Buffer zone",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "buffer-zone"
             ]
@@ -199,6 +247,8 @@
             "field": "building-preservation-notice",
             "name": "Building preservation notice",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "building-preservation-notice"
             ]
@@ -207,6 +257,8 @@
             "field": "bytes",
             "name": "Bytes",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "checksum",
                 "log",
@@ -217,6 +269,8 @@
             "field": "cardinality",
             "name": "Cardinality",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "field"
             ]
@@ -225,6 +279,8 @@
             "field": "categories",
             "name": "Categories",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "asset-of-community-value",
                 "best-and-most-versatile-agricultural-land",
@@ -283,6 +339,8 @@
             "field": "category",
             "name": "Category",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "category",
                 "document-type"
@@ -292,6 +350,8 @@
             "field": "census-area",
             "name": "Census area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "organisation"
             ]
@@ -300,12 +360,16 @@
             "field": "central-activities-zone",
             "name": "Central activities zone",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "certificate-of-immunity",
             "name": "Certificate of immunity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "certificate-of-immunity"
             ]
@@ -314,6 +378,8 @@
             "field": "checksum",
             "name": "Checksum",
             "description": "The MD5 checksum of a resource or file",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "checksum"
             ]
@@ -322,24 +388,32 @@
             "field": "citizen-name",
             "name": "Citizen name",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "citizen-names",
             "name": "Citizen names",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "clinical-commissioning-group",
             "name": "Clinical commissioning group",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "coastal-change-management-area",
             "name": "Coastal change management area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "coastal-change-management-area"
             ]
@@ -348,6 +422,8 @@
             "field": "collection",
             "name": "Collection",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "collection",
                 "dataset",
@@ -358,6 +434,8 @@
             "field": "column",
             "name": "Column",
             "description": "A column name in the resource",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "column-field",
                 "column"
@@ -367,6 +445,8 @@
             "field": "combined-authority",
             "name": "Combined authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-authority",
                 "organisation"
@@ -376,6 +456,8 @@
             "field": "common-land-and-village-green",
             "name": "Common land and village green",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "common-land-and-village-green"
             ]
@@ -384,6 +466,8 @@
             "field": "company",
             "name": "Company",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-corporation",
                 "internal-drainage-board",
@@ -400,6 +484,8 @@
             "field": "confirmed-date",
             "name": "Confirmed date",
             "description": "The date a tree preservation order is confirmed and becomes a fully fledged tree preservation order.",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree-preservation-order"
             ]
@@ -408,18 +494,24 @@
             "field": "conservation-area-document-type",
             "name": "Conservation area document type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "conservation-area-document",
             "name": "Conservation area document",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "conservation-area",
             "name": "Conservation area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "conservation-area-document",
                 "conservation-area"
@@ -429,12 +521,16 @@
             "field": "contact",
             "name": "Contact",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "contaminated-land",
             "name": "Contaminated land",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "contaminated-land"
             ]
@@ -443,6 +539,8 @@
             "field": "content-type",
             "name": "Content-Type",
             "description": "A HTTP content-type header value",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "log"
             ]
@@ -451,6 +549,8 @@
             "field": "contribution-funding-status",
             "name": "Contribution funding status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-transaction"
             ]
@@ -459,6 +559,8 @@
             "field": "contribution-purpose",
             "name": "Contribution purpose",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-contribution"
             ]
@@ -467,6 +569,8 @@
             "field": "control-of-major-accident-hazards-site",
             "name": "Control of major accident hazards site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "control-of-major-accident-hazards-site"
             ]
@@ -475,24 +579,32 @@
             "field": "copyright",
             "name": "Copyright",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "country",
             "name": "Country",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "data-package",
             "name": "Data package",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "datapackage",
             "name": "Data package",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "datapackage-dataset",
                 "datapackage"
@@ -502,6 +614,8 @@
             "field": "dataset",
             "name": "Dataset",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "checksum",
                 "column-field",
@@ -529,6 +643,8 @@
             "field": "datasets",
             "name": "Datasets",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "resource",
                 "specification"
@@ -538,6 +654,8 @@
             "field": "datatype",
             "name": "Datatype",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "datatype",
                 "field"
@@ -547,12 +665,16 @@
             "field": "datetime",
             "name": "Datetime",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "decision-date",
             "name": "Decision date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project",
                 "planning-application"
@@ -562,6 +684,8 @@
             "field": "decision-maker",
             "name": "Decision maker",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project"
             ]
@@ -570,6 +694,8 @@
             "field": "default-field",
             "name": "Default field",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "default"
             ]
@@ -578,6 +704,8 @@
             "field": "deliverable",
             "name": "Deliverable",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -586,6 +714,8 @@
             "field": "Deliverable",
             "name": "Deliverable",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -594,6 +724,8 @@
             "field": "description",
             "name": "Description",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland-status",
                 "article-4-direction-area",
@@ -659,12 +791,16 @@
             "field": "design-code-area",
             "name": "Design code area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "design-code-categories",
             "name": "Design code categories",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "design-code"
             ]
@@ -673,18 +809,24 @@
             "field": "design-code-category",
             "name": "Design code category",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "design-code-rule",
             "name": "Design code rule",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "design-code-rules",
             "name": "Design code rule",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "design-code-area"
             ]
@@ -693,6 +835,8 @@
             "field": "design-code",
             "name": "Design code",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "design-code-area",
                 "design-code-rule"
@@ -702,6 +846,8 @@
             "field": "design-code-status",
             "name": "Design code status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "design-code"
             ]
@@ -710,6 +856,8 @@
             "field": "developer-agreement-contribution",
             "name": "Developer agreement contribution",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-contribution",
                 "developer-agreement-transaction"
@@ -719,6 +867,8 @@
             "field": "developer-agreement-transaction",
             "name": "Developer agreement transaction",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-transaction"
             ]
@@ -727,6 +877,8 @@
             "field": "developer-agreement-type",
             "name": "Developer agreement type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "contribution-purpose",
                 "developer-agreement"
@@ -736,6 +888,8 @@
             "field": "developer-agreement",
             "name": "Developer agreement",
             "description": "A legal document used to secure contributions from a development for infrastructure or affordable housing.",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-contribution",
                 "developer-agreement"
@@ -745,6 +899,8 @@
             "field": "development-classification",
             "name": "Development classification",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application"
             ]
@@ -753,12 +909,16 @@
             "field": "development-corporation",
             "name": "Development corporation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-metric",
             "name": "Development metric",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-policy-metric"
             ]
@@ -767,12 +927,16 @@
             "field": "development-plan-document-type",
             "name": "Development plan type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-plan-document",
             "name": "Development plan document",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-policy"
             ]
@@ -781,6 +945,8 @@
             "field": "development-plan-event",
             "name": "Development plan event",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan-timetable"
             ]
@@ -789,6 +955,8 @@
             "field": "development-plan-geography-type",
             "name": "Development plan geography type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan-geography"
             ]
@@ -797,6 +965,8 @@
             "field": "development-plan-geography",
             "name": "Development plan geography",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan"
             ]
@@ -805,18 +975,24 @@
             "field": "development-plan-status",
             "name": "Development plan status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-plan-timetable",
             "name": "Development plan timetable",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-plan-type",
             "name": "Development plan type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan"
             ]
@@ -825,12 +1001,16 @@
             "field": "development-plan-types",
             "name": "Development plan types",
             "description": "One or more development plan types",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-plan",
             "name": "Development plan",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan-document",
                 "development-plan-timetable"
@@ -840,6 +1020,8 @@
             "field": "development-policies",
             "name": "Development policies",
             "description": "A list of development policies",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "development-policy-area"
             ]
@@ -848,12 +1030,16 @@
             "field": "development-policy-area",
             "name": "Development policy area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-policy-categories",
             "name": "Development policy categories",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "development-policy"
             ]
@@ -862,18 +1048,24 @@
             "field": "development-policy-category",
             "name": "Development policy category",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-policy-metric",
             "name": "Development policy metric",
             "description": "Metric associated with a development policy",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "development-policy",
             "name": "Development policy",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-policy-metric"
             ]
@@ -882,12 +1074,16 @@
             "field": "DevelopmentDescription",
             "name": "Development description",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": []
         },
         {
             "field": "document-type",
             "name": "Document type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "conservation-area-document",
                 "development-plan-document",
@@ -899,6 +1095,8 @@
             "field": "document-types",
             "name": "Document types",
             "description": "One or more document types",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "biodiversity-net-gain-assessment",
                 "document"
@@ -908,6 +1106,8 @@
             "field": "document-url",
             "name": "Document URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "article-4-direction-rule",
@@ -938,6 +1138,8 @@
             "field": "document",
             "name": "Document",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "biodiversity-net-gain-assessment"
             ]
@@ -946,6 +1148,8 @@
             "field": "documentation-url",
             "name": "Documentation URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland-status",
                 "ancient-woodland",
@@ -1041,6 +1245,8 @@
             "field": "elapsed",
             "name": "Elapsed time",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "log"
             ]
@@ -1049,6 +1255,8 @@
             "field": "employment-allocation",
             "name": "Employment allocation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "employment-allocation"
             ]
@@ -1057,6 +1265,8 @@
             "field": "end-date",
             "name": "End date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -1274,6 +1484,8 @@
             "field": "EndDate",
             "name": "EndDate",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -1282,6 +1494,8 @@
             "field": "endpoint-url",
             "name": "Endpoint URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "endpoint"
             ]
@@ -1290,6 +1504,8 @@
             "field": "endpoint",
             "name": "Endpoint",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "column",
                 "combine",
@@ -1311,6 +1527,8 @@
             "field": "endpoints",
             "name": "Endpoints",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "resource"
             ]
@@ -1319,6 +1537,8 @@
             "field": "entity-count",
             "name": "Entity count",
             "description": "A count of the number of entities",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-resource"
             ]
@@ -1327,6 +1547,8 @@
             "field": "entity-maximum",
             "name": "Entity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset"
             ]
@@ -1335,6 +1557,8 @@
             "field": "entity-minimum",
             "name": "Entity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset"
             ]
@@ -1343,6 +1567,8 @@
             "field": "entity",
             "name": "Entity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -1517,6 +1743,8 @@
             "field": "entry-count",
             "name": "Entry count",
             "description": "A count of the number of entries",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-resource"
             ]
@@ -1525,6 +1753,8 @@
             "field": "entry-date",
             "name": "Entry date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -1742,6 +1972,8 @@
             "field": "entry-number",
             "name": "Entry number",
             "description": "entry number in a processed resource",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "default-value",
                 "default",
@@ -1758,6 +1990,8 @@
             "field": "esd-inventory",
             "name": "ESD inventory",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-authority",
                 "organisation"
@@ -1767,6 +2001,8 @@
             "field": "event-date",
             "name": "Event date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan-timetable",
                 "infrastructure-project-log",
@@ -1777,6 +2013,8 @@
             "field": "exception",
             "name": "Exception",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "log"
             ]
@@ -1785,6 +2023,8 @@
             "field": "fact",
             "name": "Fact",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "fact-resource",
                 "fact"
@@ -1794,6 +2034,8 @@
             "field": "field-dataset",
             "name": "Field dataset",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-field"
             ]
@@ -1802,6 +2044,8 @@
             "field": "field",
             "name": "Field",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "column-field",
                 "column",
@@ -1824,6 +2068,8 @@
             "field": "fields",
             "name": "Fields",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "concat"
             ]
@@ -1832,6 +2078,8 @@
             "field": "FirstAddedDate",
             "name": "FirstAddedDate",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -1840,6 +2088,8 @@
             "field": "flood-risk-level",
             "name": "Flood risk level",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "flood-risk-zone"
             ]
@@ -1848,6 +2098,8 @@
             "field": "flood-risk-type",
             "name": "Flood risk type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "flood-risk-zone"
             ]
@@ -1856,18 +2108,24 @@
             "field": "further-education-college-region-uk",
             "name": "Further education college region (UK)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "further-education-college-uk",
             "name": "Further education college (UK)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "geographies",
             "name": "Geography",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "biodiversity-net-gain-assessment",
                 "policy"
@@ -1877,6 +2135,8 @@
             "field": "geography",
             "name": "Geography",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "asset-of-community-value",
@@ -1937,6 +2197,8 @@
             "field": "geojson",
             "name": "GeoJSON data",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "entity"
             ]
@@ -1945,12 +2207,16 @@
             "field": "geom",
             "name": "Internal BLOB geometry",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "geometry-geom",
             "name": "Geometry index",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "entity"
             ]
@@ -1959,6 +2225,8 @@
             "field": "geometry",
             "name": "Geometry",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland",
                 "area-of-outstanding-natural-beauty",
@@ -2047,6 +2315,8 @@
             "field": "GeoX",
             "name": "GeoX",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2055,6 +2325,8 @@
             "field": "GeoY",
             "name": "GeoY",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2063,12 +2335,16 @@
             "field": "government-domain",
             "name": "Government domain",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "government-organisation",
             "name": "Government organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "national-park-authority"
             ]
@@ -2077,12 +2353,16 @@
             "field": "government-service",
             "name": "Government service",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "green-belt-core",
             "name": "Green belt urban core",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "green-belt"
             ]
@@ -2091,12 +2371,16 @@
             "field": "green-belt",
             "name": "Green belt",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "ground-area",
             "name": "Ground area",
             "description": "The ground area of a site in square metres",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application"
             ]
@@ -2105,6 +2389,8 @@
             "field": "guardianship-site-and-english-heritage-site",
             "name": "Guardianship site and english heritage site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "guardianship-site-and-english-heritage-site"
             ]
@@ -2113,6 +2399,8 @@
             "field": "guidance",
             "name": "Guidance",
             "description": "Guidance on how a publisher should use the field.",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-field",
                 "field"
@@ -2122,6 +2410,8 @@
             "field": "gypsy-and-traveller-site",
             "name": "Gypsy and traveller site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "gypsy-and-traveller-site"
             ]
@@ -2130,12 +2420,16 @@
             "field": "hash",
             "name": "Hash",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "hazardous-substances",
             "name": "Hazardous substances",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2144,6 +2438,8 @@
             "field": "HazardousSubstances",
             "name": "HazardousSubstances",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2152,6 +2448,8 @@
             "field": "hectares",
             "name": "Hectares",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2160,6 +2458,8 @@
             "field": "Hectares",
             "name": "Hectares",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2168,6 +2468,8 @@
             "field": "heritage-action-zone",
             "name": "Heritage action zone",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "heritage-action-zone"
             ]
@@ -2176,12 +2478,16 @@
             "field": "heritage-asset-type",
             "name": "Heritage asset type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "heritage-at-risk",
             "name": "Heritage at risk",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "heritage-at-risk"
             ]
@@ -2190,6 +2496,8 @@
             "field": "heritage-coast",
             "name": "Heritage Coast",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "heritage-coast"
             ]
@@ -2198,12 +2506,16 @@
             "field": "heritage-risk-assessment-methodology",
             "name": "Heritage risk assessment methodology",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "hint",
             "name": "Hint",
             "description": "hint for someone entering a field on a form",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-field",
                 "field"
@@ -2213,6 +2525,8 @@
             "field": "historic-non-designed-rural-landscape-local-landscape-area",
             "name": "Historic non designed rural landscape local landscape area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "historic-non-designed-rural-landscape-local-landscape-area"
             ]
@@ -2221,6 +2535,8 @@
             "field": "historic-stone-quarry",
             "name": "Historic stone quarry",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "historic-stone-quarry"
             ]
@@ -2229,12 +2545,16 @@
             "field": "hostname",
             "name": "Hostname",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "housing-allocation",
             "name": "Housing allocation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "housing-allocation"
             ]
@@ -2243,6 +2563,8 @@
             "field": "hs2-safeguarded-area",
             "name": "Hs2 safeguarded area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "hs2-safeguarded-area"
             ]
@@ -2251,12 +2573,16 @@
             "field": "identifier",
             "name": "Identifier",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "infrastructure-funding-statement",
             "name": "Infrastructure Funding Statement",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-funding-statement"
             ]
@@ -2265,6 +2591,8 @@
             "field": "infrastructure-project-decision",
             "name": "Infrastructure project decision",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project"
             ]
@@ -2273,6 +2601,8 @@
             "field": "infrastructure-project-event",
             "name": "Infrastructure project event",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project-log"
             ]
@@ -2281,6 +2611,8 @@
             "field": "infrastructure-project-type",
             "name": "Infrastructure project type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project"
             ]
@@ -2289,6 +2621,8 @@
             "field": "infrastructure-project",
             "name": "Infrastructure project",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "infrastructure-project-document",
                 "infrastructure-project-log"
@@ -2298,6 +2632,8 @@
             "field": "internal-drainage-board",
             "name": "Internal drainage board",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "internal-drainage-district"
             ]
@@ -2306,6 +2642,8 @@
             "field": "internal-drainage-district",
             "name": "Internal drainage district",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "internal-drainage-board"
             ]
@@ -2314,6 +2652,8 @@
             "field": "internal-mime-type",
             "name": "Internal MIME Type",
             "description": "The Multipurpose Internet Mail Extensions type assigned to a file within a resource",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-resource"
             ]
@@ -2322,6 +2662,8 @@
             "field": "internal-path",
             "name": "Internal path",
             "description": "Path of a file within an resource",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-resource"
             ]
@@ -2330,6 +2672,8 @@
             "field": "issue-type",
             "name": "Issue type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "issue-type",
                 "issue"
@@ -2339,30 +2683,40 @@
             "field": "item",
             "name": "JSON",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "jobcentre-district",
             "name": "Jobcentre district",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "jobcentre-group",
             "name": "Jobcentre group",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "jobcentre",
             "name": "Jobcentre",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "json",
             "name": "JSON data",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "entity",
                 "specification"
@@ -2372,6 +2726,8 @@
             "field": "key-field",
             "name": "Key field",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset",
                 "schema"
@@ -2381,6 +2737,8 @@
             "field": "LastUpdatedDate",
             "name": "LastUpdatedDate",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2389,6 +2747,8 @@
             "field": "latitude",
             "name": "Latitude",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2020-07-30",
             "datasets": [
                 "address",
                 "brownfield-land"
@@ -2398,12 +2758,16 @@
             "field": "legal-instrument",
             "name": "Legal instrument",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "legislation",
             "name": "Legislation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "asset-of-community-value",
@@ -2465,6 +2829,8 @@
             "field": "licence",
             "name": "Licence",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset",
                 "licence",
@@ -2475,6 +2841,8 @@
             "field": "line-count",
             "name": "Line count",
             "description": "A count of the number of lines",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "checksum",
                 "dataset-resource"
@@ -2484,6 +2852,8 @@
             "field": "line-number",
             "name": "Line number",
             "description": "line number in a resource or file",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "issue"
             ]
@@ -2492,6 +2862,8 @@
             "field": "listed-building-grade",
             "name": "Listed building grade",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "listed-building-outline",
                 "listed-building",
@@ -2502,12 +2874,16 @@
             "field": "listed-building-outline",
             "name": "Listed building outline",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "listed-building",
             "name": "Listed building",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "listed-building-outline",
                 "listed-building"
@@ -2517,6 +2893,8 @@
             "field": "local-authority-district",
             "name": "Local Authority District",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "green-belt",
                 "local-authority-district",
@@ -2527,24 +2905,32 @@
             "field": "local-authority-eng",
             "name": "Local authority (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "local-authority-nir",
             "name": "Local authority (Northern Ireland)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "local-authority-sct",
             "name": "Local authority (Scotland)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "local-authority-type",
             "name": "Local authority type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-authority",
                 "organisation"
@@ -2554,12 +2940,16 @@
             "field": "local-authority",
             "name": "Local authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "local-enterprise-partnership-area",
             "name": "Local Enterprise Partnership area",
             "description": "The boundary of a Local Enterprise Partnership area",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-enterprise-partnership"
             ]
@@ -2568,6 +2958,8 @@
             "field": "local-enterprise-partnership",
             "name": "Local Enterprise Partnership",
             "description": "Local Enterprise Partnership",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-authority"
             ]
@@ -2576,6 +2968,8 @@
             "field": "local-green-space",
             "name": "Local green space",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-green-space"
             ]
@@ -2584,6 +2978,8 @@
             "field": "local-nature-recovery-strategy",
             "name": "Local nature recovery strategy",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-nature-recovery-strategy"
             ]
@@ -2592,6 +2988,8 @@
             "field": "local-planning-authority",
             "name": "Local Planning Authority",
             "description": "The boundary of a Local Planning Authority",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-corporation",
                 "local-authority",
@@ -2602,6 +3000,8 @@
             "field": "local-resilience-forum",
             "name": "Local resilience forum",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "local-authority",
                 "organisation"
@@ -2611,6 +3011,8 @@
             "field": "locally-listed-building",
             "name": "Locally listed building",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "locally-listed-building"
             ]
@@ -2619,6 +3021,8 @@
             "field": "london-square",
             "name": "London square",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "london-square"
             ]
@@ -2627,6 +3031,8 @@
             "field": "long-established-woodland",
             "name": "Long established woodland",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "long-established-woodland"
             ]
@@ -2635,6 +3041,8 @@
             "field": "long-protected-woodland",
             "name": "Long protected woodland",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "long-protected-woodland"
             ]
@@ -2643,6 +3051,8 @@
             "field": "longitude",
             "name": "Longitude",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2020-07-30",
             "datasets": [
                 "address",
                 "brownfield-land"
@@ -2652,12 +3062,16 @@
             "field": "lookup",
             "name": "Lookup",
             "description": "Lookup entities",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "made-date",
             "name": "Made date",
             "description": "The date a tree preservation order was \"made\". From this date the included tree(s), from a planning perspective, are considered to be covered by a tree preservation order.",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree-preservation-order"
             ]
@@ -2666,6 +3080,8 @@
             "field": "main-river",
             "name": "Main river",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "main-river"
             ]
@@ -2674,6 +3090,8 @@
             "field": "maximum-net-dwellings",
             "name": "Maximum net dwellings",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2682,24 +3100,32 @@
             "field": "member-organisation",
             "name": "Organisation which is a member of this organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "member-organisations",
             "name": "Organisations which are a member of this organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "metric",
             "name": "metric",
             "description": "A metric",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "metropolitan-open-land",
             "name": "Metropolitan open land",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "metropolitan-open-land"
             ]
@@ -2708,6 +3134,8 @@
             "field": "mime-type",
             "name": "MIME Type",
             "description": "The Multipurpose Internet Mail Extensions type assigned to a resource",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-resource",
                 "resource"
@@ -2717,6 +3145,8 @@
             "field": "mineral-safeguarding-area",
             "name": "Mineral safeguarding area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "mineral-safeguarding-area"
             ]
@@ -2725,6 +3155,8 @@
             "field": "minimum-net-dwellings",
             "name": "Minimum net dwellings",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2733,6 +3165,8 @@
             "field": "MinNetDwellings",
             "name": "Minimum net dwellings",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2741,12 +3175,16 @@
             "field": "name-cy",
             "name": "Name (Welsh)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "name",
             "name": "Name",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -2930,18 +3368,24 @@
             "field": "national-park-authority",
             "name": "National park authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "national-park",
             "name": "National park",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "nature-improvement-area",
             "name": "Nature improvement area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "nature-improvement-area"
             ]
@@ -2950,6 +3394,8 @@
             "field": "neighbourhood-forum",
             "name": "Neighbourhood forum",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "neighbourhood-forum"
             ]
@@ -2958,12 +3404,16 @@
             "field": "neighbourhood-plan-area",
             "name": "Neighbourhood Plan Area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "NetDwellingsRangeFrom",
             "name": "Minimum net dwellings",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2972,6 +3422,8 @@
             "field": "NetDwellingsRangeTo",
             "name": "Maximum net dwellings",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -2980,6 +3432,8 @@
             "field": "non-designated-and-locally-listed-historic-asset",
             "name": "Non designated and locally listed historic asset",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "non-designated-and-locally-listed-historic-asset"
             ]
@@ -2988,6 +3442,8 @@
             "field": "non-designated-archeology-asset-of-national-importance",
             "name": "Non designated archeology asset of national importance",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "non-designated-archeology-asset-of-national-importance"
             ]
@@ -2996,12 +3452,16 @@
             "field": "nonprofit",
             "name": "Nonprofit organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "notes",
             "name": "Notes",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -3171,6 +3631,8 @@
             "field": "Notes",
             "name": "Notes",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3179,6 +3641,8 @@
             "field": "nuclear-safety-zone",
             "name": "Nuclear safety zone",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "nuclear-safety-zone"
             ]
@@ -3187,18 +3651,24 @@
             "field": "number",
             "name": "Number",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "official-name-cy",
             "name": "Official name (Welsh)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "official-name",
             "name": "Official name",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "organisation"
             ]
@@ -3207,6 +3677,8 @@
             "field": "old-entity",
             "name": "Old entity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "old-entity"
             ]
@@ -3215,6 +3687,8 @@
             "field": "old-resource",
             "name": "Old resource",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "old-resource"
             ]
@@ -3223,6 +3697,8 @@
             "field": "open-space",
             "name": "Open space",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "open-space"
             ]
@@ -3231,18 +3707,24 @@
             "field": "opendatacommunities-area",
             "name": "Open Data Communities area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "opendatacommunities-organisation",
             "name": "Open Data Communities organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "opendatacommunities-uri",
             "name": "Open Data Communities URI",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-corporation",
                 "government-organisation",
@@ -3258,12 +3740,16 @@
             "field": "openstreetmap",
             "name": "OpenStreetMap relation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "organisation-entity",
             "name": "Organisation entity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "entity"
             ]
@@ -3272,6 +3758,8 @@
             "field": "organisation",
             "name": "Organisation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland",
                 "area-of-outstanding-natural-beauty",
@@ -3382,6 +3870,8 @@
             "field": "OrganisationLabel",
             "name": "OrganisationLabel",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3390,6 +3880,8 @@
             "field": "organisations",
             "name": "Organisations",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "biodiversity-net-gain-assessment",
                 "development-plan",
@@ -3401,6 +3893,8 @@
             "field": "OrganisationURI",
             "name": "OrganisationURI",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3409,6 +3903,8 @@
             "field": "ownership-status",
             "name": "Ownership status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3417,6 +3913,8 @@
             "field": "OwnershipStatus",
             "name": "OwnershipStatus",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3425,6 +3923,8 @@
             "field": "paint-options",
             "name": "Paint options",
             "description": "Colour, opacity and other paint options for displaying the dataset on a map",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset"
             ]
@@ -3433,12 +3933,16 @@
             "field": "parameter",
             "name": "Parameter",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "parameters",
             "name": "Parameters",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "convert",
                 "endpoint"
@@ -3448,6 +3952,8 @@
             "field": "parent-article-4-direction-rule",
             "name": "Parent article 4 direction rule",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "article-4-direction-rule"
             ]
@@ -3456,6 +3962,8 @@
             "field": "parent-field",
             "name": "Parent field",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "field"
             ]
@@ -3464,6 +3972,8 @@
             "field": "parish",
             "name": "Parish",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "parish"
             ]
@@ -3472,6 +3982,8 @@
             "field": "park-and-garden-grade",
             "name": "Park and garden grade",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "park-and-garden-grade",
                 "park-and-garden"
@@ -3481,6 +3993,8 @@
             "field": "park-and-garden",
             "name": "Park and garden",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "park-and-garden"
             ]
@@ -3489,6 +4003,8 @@
             "field": "parliament-thesaurus",
             "name": "Parliament thesaurus identifier",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-corporation",
                 "government-organisation",
@@ -3508,12 +4024,16 @@
             "field": "passenger-transport-executive",
             "name": "Passenger transport executive",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "path",
             "name": "Path",
             "description": "Path of a file",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "checksum"
             ]
@@ -3522,6 +4042,8 @@
             "field": "pattern",
             "name": "Pattern",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "filter",
                 "patch",
@@ -3532,6 +4054,8 @@
             "field": "period-end-date",
             "name": "Period end date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan",
                 "development-policy-metric"
@@ -3541,6 +4065,8 @@
             "field": "period-start-date",
             "name": "Period start date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-plan",
                 "development-policy-metric"
@@ -3550,6 +4076,8 @@
             "field": "PermissionDate",
             "name": "Planning permission date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3558,6 +4086,8 @@
             "field": "PermissionType",
             "name": "Planning permission type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3566,6 +4096,8 @@
             "field": "permitted-development-right-part",
             "name": "Permitted development right part",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "permitted-development-right"
             ]
@@ -3574,12 +4106,16 @@
             "field": "permitted-development-right",
             "name": "Permitted development right",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "permitted-development-rights",
             "name": "Permitted development rights",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "article-4-direction-area"
             ]
@@ -3588,6 +4124,8 @@
             "field": "phase",
             "name": "Phase",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset"
             ]
@@ -3596,12 +4134,16 @@
             "field": "pipeline",
             "name": "Pipeline",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "pipelines",
             "name": "Pipelines",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "source"
             ]
@@ -3610,6 +4152,8 @@
             "field": "planning-application-category",
             "name": "Planning application category",
             "description": "A grouping of the planning-application-type i.e. full, householder, change of use",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application-type"
             ]
@@ -3618,6 +4162,8 @@
             "field": "planning-application-status",
             "name": "Planning application status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application-log",
                 "planning-application"
@@ -3627,6 +4173,8 @@
             "field": "planning-application-type",
             "name": "Planning application type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application"
             ]
@@ -3635,6 +4183,8 @@
             "field": "planning-application",
             "name": "Planning application",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "biodiversity-net-gain-assessment",
                 "developer-agreement",
@@ -3646,6 +4196,8 @@
             "field": "planning-decision-type",
             "name": "Planning decision type",
             "description": "The method used to make the decision on a planning application",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application"
             ]
@@ -3654,6 +4206,8 @@
             "field": "planning-decision",
             "name": "Planning decision",
             "description": "The decision of a Local Planning Authority on an planning application",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "planning-application"
             ]
@@ -3662,6 +4216,8 @@
             "field": "planning-permission-date",
             "name": "Planning permission date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3670,6 +4226,8 @@
             "field": "planning-permission-history",
             "name": "Planning permission history",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3678,6 +4236,8 @@
             "field": "planning-permission-status",
             "name": "Planning permission status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3686,6 +4246,8 @@
             "field": "planning-permission-type",
             "name": "Planning permission type",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3694,6 +4256,8 @@
             "field": "PlanningHistory",
             "name": "Planning permission history",
             "description": "",
+            "cardinality": "n",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3702,6 +4266,8 @@
             "field": "PlanningStatus",
             "name": "Planning permission status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -3710,6 +4276,8 @@
             "field": "plugin",
             "name": "Plugin",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "convert",
                 "endpoint"
@@ -3719,6 +4287,8 @@
             "field": "plural",
             "name": "Plural name",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset",
                 "typology"
@@ -3728,6 +4298,8 @@
             "field": "point-geom",
             "name": "Point index",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "entity"
             ]
@@ -3736,6 +4308,8 @@
             "field": "point",
             "name": "Point",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ancient-woodland",
                 "area-of-outstanding-natural-beauty",
@@ -3822,6 +4396,8 @@
             "field": "policy",
             "name": "Policy",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "policy"
             ]
@@ -3830,6 +4406,8 @@
             "field": "prefix-uri",
             "name": "CURIE prefix URI",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "prefix"
             ]
@@ -3838,6 +4416,8 @@
             "field": "prefix",
             "name": "CURIE prefix",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -4011,18 +4591,24 @@
             "field": "principal-local-authority",
             "name": "Principal local authority (Wales)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "prison-estate",
             "name": "Prison estate",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "project-status",
             "name": "Project status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "project-status",
                 "project"
@@ -4032,6 +4618,8 @@
             "field": "project",
             "name": "Project",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "organisation-dataset",
                 "project"
@@ -4041,6 +4629,8 @@
             "field": "proposed-ramsar-site",
             "name": "Proposed ramsar site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "proposed-ramsar-site"
             ]
@@ -4049,6 +4639,8 @@
             "field": "protected-land",
             "name": "Protected land",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "protected-land"
             ]
@@ -4057,6 +4649,8 @@
             "field": "protected-view",
             "name": "Protected view",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "protected-view"
             ]
@@ -4065,6 +4659,8 @@
             "field": "protected-wreck-site",
             "name": "Protected wreck site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "protected-wreck-site"
             ]
@@ -4073,6 +4669,8 @@
             "field": "provenance",
             "name": "Provenance",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "provenance"
             ]
@@ -4081,6 +4679,8 @@
             "field": "provision-reason",
             "name": "Provision reason",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "organisation-dataset",
                 "project",
@@ -4091,12 +4691,16 @@
             "field": "public-authority",
             "name": "Public authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "public-safety-zone-around-airport",
             "name": "Public safety zone around airport",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "public-safety-zone-around-airport"
             ]
@@ -4105,12 +4709,16 @@
             "field": "purpose",
             "name": "Purpose",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "ramsar-site",
             "name": "Ramsar site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ramsar"
             ]
@@ -4119,6 +4727,8 @@
             "field": "ramsar",
             "name": "Ramsar",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ramsar"
             ]
@@ -4127,6 +4737,8 @@
             "field": "realm",
             "name": "Realm",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset"
             ]
@@ -4135,6 +4747,8 @@
             "field": "reference-entity",
             "name": "Reference entity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "fact"
             ]
@@ -4143,6 +4757,8 @@
             "field": "reference",
             "name": "Reference",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -4315,6 +4931,8 @@
             "field": "region",
             "name": "Region",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "internal-drainage-board",
                 "internal-drainage-district",
@@ -4331,30 +4949,40 @@
             "field": "regional-park-authority",
             "name": "Regional park authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "register",
             "name": "Register",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "registration-district",
             "name": "Registration district",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "registry",
             "name": "Registry",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "replacement-field",
             "name": "Replacement field",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "field",
                 "transform"
@@ -4364,18 +4992,24 @@
             "field": "request-headers",
             "name": "Request headers",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "resource-url",
             "name": "Resource URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "resource",
             "name": "Resource",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "column-field",
                 "column",
@@ -4402,12 +5036,16 @@
             "field": "response-headers",
             "name": "Response headers",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "safeguarded-aerodrome",
             "name": "Safeguarded aerodrome",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "safeguarded-aerodrome"
             ]
@@ -4416,6 +5054,8 @@
             "field": "safeguarded-military-explosives-site",
             "name": "Safeguarded military explosives site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "safeguarded-military-explosives-site"
             ]
@@ -4424,6 +5064,8 @@
             "field": "safeguarded-wharf",
             "name": "Safeguarded wharf",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "safeguarded-wharf"
             ]
@@ -4432,6 +5074,8 @@
             "field": "safety-hazard-area",
             "name": "Safety hazard area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "safety-hazard-area"
             ]
@@ -4440,6 +5084,8 @@
             "field": "scheduled-monument",
             "name": "Scheduled monument",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "scheduled-monument"
             ]
@@ -4448,6 +5094,8 @@
             "field": "schema",
             "name": "Schema",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset-schema",
                 "schema-field",
@@ -4458,18 +5106,24 @@
             "field": "school-type-eng",
             "name": "School type (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "scope-field",
             "name": "Scope field",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "self-and-custom-buildarea",
             "name": "Self and custom buildarea",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "self-and-custom-buildarea"
             ]
@@ -4478,6 +5132,8 @@
             "field": "separator",
             "name": "Separator",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "combine",
                 "concat"
@@ -4487,6 +5143,8 @@
             "field": "severity",
             "name": "Severity",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "issue-type",
                 "severity"
@@ -4496,6 +5154,8 @@
             "field": "shielding-hub",
             "name": "Shielding hub",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "organisation"
             ]
@@ -4504,12 +5164,16 @@
             "field": "short-name",
             "name": "Short name",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "site-address",
             "name": "Site address",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4518,6 +5182,8 @@
             "field": "site-categories",
             "name": "Site category",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4526,6 +5192,8 @@
             "field": "site-category",
             "name": "Site category",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "site-category"
             ]
@@ -4534,12 +5202,16 @@
             "field": "site-of-special-scientific-interest",
             "name": "Site of special scientific interest",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "site-plan-url",
             "name": "Site plan URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4548,6 +5220,8 @@
             "field": "site",
             "name": "Site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4556,12 +5230,16 @@
             "field": "SiteInformation",
             "name": "Site information",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": []
         },
         {
             "field": "SiteNameAddress",
             "name": "SiteNameAddress",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4570,6 +5248,8 @@
             "field": "SiteplanURL",
             "name": "SiteplanURL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4578,6 +5258,8 @@
             "field": "SiteReference",
             "name": "SiteReference",
             "description": "",
+            "cardinality": "1",
+            "end-date": "2019-10-31",
             "datasets": [
                 "brownfield-land"
             ]
@@ -4586,18 +5268,24 @@
             "field": "slug-prefix",
             "name": "Slug prefix",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "slug",
             "name": "Slug",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "source",
             "name": "Source",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "source"
             ]
@@ -4606,6 +5294,8 @@
             "field": "special-area-of-conservation",
             "name": "Special area of conservation",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "special-area-of-conservation"
             ]
@@ -4614,6 +5304,8 @@
             "field": "special-protection-area",
             "name": "Special protection area",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "ramsar"
             ]
@@ -4622,6 +5314,8 @@
             "field": "specification-status",
             "name": "Specification status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "specification-status",
                 "specification"
@@ -4631,6 +5325,8 @@
             "field": "specification",
             "name": "Specification",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "organisation-dataset",
                 "specification"
@@ -4640,6 +5336,8 @@
             "field": "specifications",
             "name": "Specifications",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "project"
             ]
@@ -4648,6 +5346,8 @@
             "field": "start-date",
             "name": "Start date",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "address",
                 "ancient-woodland-status",
@@ -4865,66 +5565,88 @@
             "field": "statistical-geographies",
             "name": "Statistical geographies",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-county-eng",
             "name": "Country statistical geography",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-local-government-district-nir",
             "name": "Local government district statistical geography (Northern Ireland)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-london-borough-eng",
             "name": "London borough statistical geography (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-metropolitan-district-eng",
             "name": "Metropolitan district statistical geography (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-non-metropolitan-district-eng",
             "name": "Non-metropolitan district statistical geography (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-registration-district-eng",
             "name": "Registration district statistical geography (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-registration-district-wls",
             "name": "Registration district statistical geography (Wales)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-unitary-authority-eng",
             "name": "Unitary authority statistical geography (England)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography-unitary-authority-wls",
             "name": "Unitary authority statistical geography (Wales)",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "statistical-geography",
             "name": "Statistical geography",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "development-corporation",
                 "government-organisation",
@@ -4942,6 +5664,8 @@
             "field": "status",
             "name": "Status",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "log",
                 "old-entity",
@@ -4952,12 +5676,16 @@
             "field": "strategic",
             "name": "Strategic",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "street",
             "name": "Street",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "street"
             ]
@@ -4966,12 +5694,16 @@
             "field": "string",
             "name": "String",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "suitable-alternative-green-space",
             "name": "Suitable alternative green space",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "suitable-alternative-green-space"
             ]
@@ -4980,12 +5712,16 @@
             "field": "territory",
             "name": "Territory",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "text",
             "name": "Text",
             "description": "Markdown content describing the technical specification of a field",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "attribution",
                 "datapackage",
@@ -5000,6 +5736,8 @@
             "field": "theme",
             "name": "Theme",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "theme"
             ]
@@ -5008,6 +5746,8 @@
             "field": "themes",
             "name": "Themes",
             "description": "",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "dataset"
             ]
@@ -5016,6 +5756,8 @@
             "field": "transport-under-tcpa-route",
             "name": "Transport under tcpa route",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "transport-under-tcpa-route"
             ]
@@ -5024,6 +5766,8 @@
             "field": "tree-preservation-order-tree",
             "name": "Tree preservation order tree",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree"
             ]
@@ -5032,6 +5776,8 @@
             "field": "tree-preservation-order",
             "name": "Tree preservation order",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree-preservation-zone",
                 "tree"
@@ -5041,6 +5787,8 @@
             "field": "tree-preservation-zone-type",
             "name": "Tree preservation zone type",
             "description": "A category of tree preservation zone",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree-preservation-zone"
             ]
@@ -5049,12 +5797,16 @@
             "field": "tree-preservation-zone",
             "name": "Tree preservation zone",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "tree-species-list",
             "name": "Tree species list",
             "description": "A list of tree species",
+            "cardinality": "n",
+            "end-date": "",
             "datasets": [
                 "tree-preservation-zone"
             ]
@@ -5063,6 +5815,8 @@
             "field": "tree-species",
             "name": "Tree species",
             "description": "A species of tree",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree"
             ]
@@ -5071,6 +5825,8 @@
             "field": "tree",
             "name": "Tree",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "tree"
             ]
@@ -5079,6 +5835,8 @@
             "field": "twitter",
             "name": "Twitter",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "company",
@@ -5102,6 +5860,8 @@
             "field": "typology",
             "name": "Typology",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset",
                 "entity",
@@ -5113,12 +5873,16 @@
             "field": "uk",
             "name": "UK",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "units",
             "name": "Units",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "developer-agreement-contribution",
                 "developer-agreement-transaction"
@@ -5128,12 +5892,16 @@
             "field": "unused",
             "name": "Unused",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "uprn",
             "name": "UPRN",
             "description": "Unique Property Reference Number",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "article-4-direction-area",
                 "planning-application",
@@ -5144,6 +5912,8 @@
             "field": "uri-template",
             "name": "RFC6570 template URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "field"
             ]
@@ -5152,12 +5922,16 @@
             "field": "url",
             "name": "URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "value",
             "name": "Value",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "default-value",
                 "development-policy-metric",
@@ -5172,6 +5946,8 @@
             "field": "version",
             "name": "Version",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "dataset",
                 "specification"
@@ -5181,12 +5957,16 @@
             "field": "waste-authority",
             "name": "Waste authority",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "website-url",
             "name": "Website URL",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "government-organisation"
             ]
@@ -5195,6 +5975,8 @@
             "field": "website",
             "name": "Website",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "company",
@@ -5218,6 +6000,8 @@
             "field": "wikidata-property",
             "name": "Wikidata property",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "field"
             ]
@@ -5226,6 +6010,8 @@
             "field": "wikidata",
             "name": "Wikidata item",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "battlefield",
@@ -5261,12 +6047,16 @@
             "field": "wikipedia-url",
             "name": "Wikipedia page",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": []
         },
         {
             "field": "wikipedia",
             "name": "Wikipedia page",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "area-of-outstanding-natural-beauty",
                 "battlefield",
@@ -5302,6 +6092,8 @@
             "field": "wildbelt",
             "name": "Wildbelt",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "wildbelt"
             ]
@@ -5310,6 +6102,8 @@
             "field": "wildlife",
             "name": "Wildlife",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "wildlife"
             ]
@@ -5318,6 +6112,8 @@
             "field": "world-heritage-convention-site",
             "name": "UNESCO World Heritage Convention site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "world-heritage-site"
             ]
@@ -5326,6 +6122,8 @@
             "field": "world-heritage-site",
             "name": "World heritage site",
             "description": "",
+            "cardinality": "1",
+            "end-date": "",
             "datasets": [
                 "world-heritage-site-buffer-zone"
             ]

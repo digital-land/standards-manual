@@ -25,9 +25,13 @@
           <div class="app-field__header govuk-!-margin-bottom-1">
             <span class="govuk-!-font-weight-bold">{{ field.name }}</span>
             <span class="govuk-hint">({{ field.field }})</span>
+            {% if field['end-date'] %}<span class="govuk-tag govuk-tag--grey">Archived</span>{% endif %}
           </div>
           {%- if field.description %}
           <p class="govuk-body">{{ field.description }}</p>
+          {% endif -%}
+          {%- if field.cardinality == 'n' %}
+          <p class="govuk-body">This field accepts a list. Items are separated by a <code>;</code>.</p>
           {% endif -%}
           {%- if field.datasets|length > 0 %}
           <p class="govuk-body">Datasets using this field are: {% for dataset in field.datasets %}
@@ -40,7 +44,6 @@
         {% endfor %}
       </ul>
       {% endblock fields %}
-      
 
       {% include "layouts/shared/related.njk" %}
     </div>
