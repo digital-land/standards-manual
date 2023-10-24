@@ -1,7 +1,7 @@
 module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(require('@x-govuk/govuk-eleventy-plugin'), {
       stylesheets: [
-        '/styles/application.css'
+        '/application.css'
       ],
       headingPermalinks: true,
       header: {
@@ -17,7 +17,9 @@ module.exports = function (eleventyConfig) {
   
     // Passthrough
     eleventyConfig.addPassthroughCopy({ './app/images': '.' })
-    
+    eleventyConfig.addPassthroughCopy("app/digital-land-frontend.js");
+    eleventyConfig.addPassthroughCopy("app/application.css");
+
     // Config
     return {
       dataTemplateEngine: 'njk',

@@ -17,35 +17,71 @@
 
       {{ appProseScope(content) if content }}
 
-      {% block fields %}
-      <p class="govuk-body">Showing {{ fields.fields|length }} fields</p>
-      <ul class="govuk-list">
-        {% for field in fields.fields %}
-        <li>
-          <div class="app-field__header govuk-!-margin-bottom-1">
-            <span class="govuk-!-font-weight-bold">{{ field.name }}</span>
-            <span class="govuk-hint">({{ field.field }})</span>
-            {% if field['end-date'] %}<span class="govuk-tag govuk-tag--grey">Archived</span>{% endif %}
+      <hr class="govuk-section-break govuk-section-break--xl govuk-section-break--visible">
+
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+        <form class="govuk-form" data-module="dl-list-filter-form">
+          <div class="govuk-form-group">
+            <label for="organisation" class="govuk-label">Search for field</label>
+            <input type="text" class="govuk-input" name="field-name">
           </div>
-          {%- if field.description %}
-          <p class="govuk-body">{{ field.description }}</p>
-          {% endif -%}
-          {%- if field.cardinality == 'n' %}
-          <p class="govuk-body">This field accepts a list. Items are separated by a <code>;</code>.</p>
-          {% endif -%}
-          {%- if field.datasets|length > 0 %}
-          <p class="govuk-body">Datasets using this field are: {% for dataset in field.datasets %}
-            {{ dataset }}{% if not loop.last %}, {% endif %}
-          {% endfor %}</p>
-          {% else %}
-          <p class="govuk-body govuk-hint">Not included in a dataset</p>
-          {% endif -%}
-        </li>
-        {% endfor %}
-      </ul>
-      {% endblock fields %}
+        </form>
+        </div>
+      </div>
+
+      {% block fields %}
+
+      <div class="dl-list-filter__count app-list-wrapper">
+        <div class="govuk-body dl-list-filter__count__wrapper">Showing
+          <p class="govuk-visually-hidden">
+            <span class="js-accessible-list-filter__count">{{ fields.fields|length }}</span>
+            of {{ fields.fields|length }}
+          </p>
+          <span class="js-list-filter__count" aria-hidden="true">{{ fields.fields|length }}</span>
+        fields</div>
+
+        <ul class="govuk-list" data-filter="list">
+          {% for field in fields.fields %}
+          <li data-filter="item">
+            <div class="app-field__header govuk-!-margin-bottom-1">
+              <span class="govuk-!-font-weight-bold" data-filter="match-content">{{ field.name }}</span>
+              <span class="govuk-hint">({{ field.field }})</span>
+              {% if field['end-date'] %}<span class="govuk-tag govuk-tag--grey">Archived</span>{% endif %}
+            </div>
+            {%- if field.description %}
+            <p class="govuk-body">{{ field.description }}</p>
+            {% endif -%}
+            {%- if field.cardinality == 'n' %}
+            <p class="govuk-body">This field accepts a list. Items are separated by a <code>;</code>.</p>
+            {% endif -%}
+            {%- if field.datasets|length > 0 %}
+            <p class="govuk-body">Datasets using this field are: {% for dataset in field.datasets %}
+              {{ dataset }}{% if not loop.last %}, {% endif %}
+            {% endfor %}</p>
+            {% else %}
+            <p class="govuk-body govuk-hint">Not included in a dataset</p>
+            {% endif -%}
+          </li>
+          {% endfor %}
+        </ul>
+        {% endblock fields %}
+
+        <p class="dl-list-filter__no-filter-match">No field matches that search term.</p>
+
+      </div>
 
       {% include "layouts/shared/related.njk" %}
     </div>
   </div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/digital-land-frontend.js"></script>
+<script>
+  window.DLFrontend.initAll();
+</script>
+<script>
+  var $formToFilterList = document.querySelector('[data-module="dl-list-filter-form"]');
+</script>
 {% endblock %}
