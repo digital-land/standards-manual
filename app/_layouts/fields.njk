@@ -41,9 +41,10 @@
           <span class="js-list-filter__count" aria-hidden="true">{{ fields.fields|length }}</span>
         fields</div>
 
+        {% set dataset_editor_url = "https://dluhc-datasets.planning-data.dev/dataset/" %}
         <ul class="govuk-list" data-filter="list">
           {% for field in fields.fields %}
-          <li data-filter="item">
+          <li data-filter="item" data-field-typology="{{ field.typology }}">
             <div class="app-field__header govuk-!-margin-bottom-1">
               <span class="govuk-!-font-weight-bold" data-filter="match-content">{{ field.name }}</span>
               <span class="govuk-hint">({{ field.field }})</span>
@@ -54,6 +55,10 @@
             {% endif -%}
             {%- if field.cardinality == 'n' %}
             <p class="govuk-body">This field accepts a list. Items are separated by a <code>;</code>.</p>
+            {% endif -%}
+            {%- if field.typology == "category" %}
+            {% set dataset_name = field.field.slice(0, -1) if field.field.slice(-1) == 's' else field.field %}
+            <p class="govuk-body">This field has a controlled vocabulary. See the <a href="{{ dataset_editor_url }}{{ dataset_name }}" class="govuk-link">list of defined values</a>.</p>
             {% endif -%}
             {%- if field.datasets|length > 0 %}
             <p class="govuk-body">Datasets using this field are: {% for dataset in field.datasets %}
