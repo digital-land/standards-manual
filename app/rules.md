@@ -1,6 +1,6 @@
 ---
 layout: sub-navigation
-order: 2
+order: 3
 title: Rules
 description: Rules we follow to make decisions when designing data standards.
 # aside:

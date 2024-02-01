@@ -1,6 +1,6 @@
 ---
 layout: sub-navigation
-order: 3
+order: 4
 title: Patterns
 description: We follow a number of patterns when we design data standards.
 ---
