@@ -36,7 +36,7 @@ Linked data is more valuable because it interconnects information, enabling seam
 
 The planning.data.gov.uk platform makes it easy to add additional attributes and records over time. Often some data is better than nothing. For instance providing the geometries for conservation areas and then later linking to the document that provides the authoritative source means that we can start showing conservation areas on the national map sooner.
 
-<h2 class="govuk-heading-l govuk-!-margin-top-9">Don’t include inferrable data</h2>
+## Don’t include inferrable data
 
 To help ensure integrity, the data set shouldn't contain any values that can be derived or calculated from other values. The data we ask for should only be the raw data. For example, if we have asked for a geometry, we do not need to also ask for the area. The area can be derived.
 
