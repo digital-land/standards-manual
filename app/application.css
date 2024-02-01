@@ -2,3 +2,8 @@
   display: none;
   visibility: hidden;
 }
+
+.app-prose-scope .govuk-heading-l,
+app-prose-scope .govuk-heading-m {
+  padding-top:.75em;
+}
