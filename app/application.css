@@ -7,3 +7,7 @@
 app-prose-scope .govuk-heading-m {
   padding-top:.75em;
 }
+
+.app-article-spacing-container .govuk-heading-l {
+  padding-top: 60px;
+}

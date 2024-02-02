@@ -8,7 +8,7 @@ We capture 2 types of dates in our datasets.
 
 Firstly there are the dates that provide information about the validity of the record/data. These can be considered system dates. They tell us when records were created, when they were true from and when they are no longer valid from.
 
-[What are the system dates included in all datasets?](https://standards.planning-data.dev/rules/)
+[What are the system dates included in all datasets?](http://localhost:8080/rules/#all-schemas-must-include-entry%2C-start-and-end-dates)
 
 The second type of date we capture is about the thing (for example the conservation area or the event record) itself. It is data that makes up part of the record itself.
 

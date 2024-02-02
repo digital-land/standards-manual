@@ -22,6 +22,8 @@ description: We use these principles to help us make better decisions when we de
 #             href: https://www.11ty.dev/docs/data-frontmatter/
 ---
 
+<div class="app-article-spacing-container">
+
 ## Standards are living documents
 
 Standards change and grow over time. The data needs that users have now might not be the needs that they have in the future.
@@ -83,3 +85,4 @@ The platform makes it easier to build services on top of planning data but it do
 
 If users want to access this unprocessed data they will always be able to get it directly from the publisher, as well as any associate legal instruments and supporting documents.
 
+</div>

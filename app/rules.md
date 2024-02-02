@@ -22,15 +22,16 @@ description: Rules we follow to make decisions when designing data standards.
 #             href: https://www.11ty.dev/docs/data-frontmatter/
 ---
 
+<div class="app-article-spacing-container">
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">Date formats</h2>
+## Date formats
 
 Dates can be written in many different ways. To avoid confusion, all our dates comply with the internationally recognised ISO 8601 standard.
 
 A date should be represented as `YYYY-MM-DD`, so for example, 4 June 2018 would be written as `2018-06-04`.
 
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">Identifiers and references</h2>
+## Identifiers and references
 
 When we create a unique identifier we:
 
@@ -48,7 +49,7 @@ What we need are persistent, managed references planners would recognise, which 
 
 For example, a unique id might be `10003-10927832-18389-183890` whereas a `reference` might be `CA01` for a conservation area.
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">A record with a document-url should also have a documentation-url</h2>
+## A record with a document-url should also have a documentation-url
 
 When we capture a document URL we want to know where it was published. We use a documentation-url to record this.
 
@@ -59,13 +60,13 @@ Knowing where it was published allows us to locate updated versions of the docum
 
 - The development plan document dataset in the [Development Plan Standard](https://digital-land.github.io/specification/specification/development-plan/)
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">For geospatial data include both geometry and point fields</h2>
+## For geospatial data include both geometry and point fields
 
 In some cases the geometry might not yet exist as data. In these cases, it is better to ask for a point than nothing at all.
 
 Point data, although not as useful as the full geometry data, is still very useful. It still indicates where the entity exists and can be used in geography based searches.
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">All schemas must include entry, start and end dates</h2>
+## All schemas must include entry, start and end dates
 
 These dates provide information about the validity of the record.
 
@@ -82,7 +83,7 @@ Take tree preservation orders (TPOs) as an example. For TPO records, these field
 * `start-date` = the date the TPO was made or confirmed.
 * `end-date` = it will only be used for TPOs that are no longer valid and would be the date the TPO expired or was revoked.
 
-<h2 class="govuk-heading-m govuk-!-margin-top-9">Include address-text field as well as urpn field</h2>
+## Include address-text field as well as urpn field
 
 If you include a `uprn` field also include an `address-text` field. This protects against cases where no UPRN is available. 
 
@@ -91,3 +92,5 @@ When no UPRN exists, a data provider can use the `address-text` field to provide
 #### Examples of where we use this rule
 
 We follow this rule in the <a href="https://digital-land.github.io/specification/specification/planning-application/" class="govuk-link">Planning application standard</a> and <a href="https://digital-land.github.io/specification/specification/tree-preservation-order/" class="govuk-link">Tree preservation order standard</a>
+
+</div>
