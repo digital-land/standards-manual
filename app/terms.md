@@ -26,7 +26,7 @@ description:
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      consultative/informative dataset
+      consultative or informative dataset
     </dt>
     <dd class='govuk-summary-list__value'>
       A dataset that can be used to help fulfil planning requirements
