@@ -18,7 +18,7 @@ description:
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      Data standard
+      data standard
     </dt>
     <dd class='govuk-summary-list__value'>
       A data standard is a formal document that defines how data should be structured and formatted
@@ -82,10 +82,10 @@ description:
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      Planning requirement
+      planning requirement
     </dt>
     <dd class='govuk-summary-list__value'>
-      Supplementary information that supports a planning application, typically in the form of a report or an assessment. For example, an air quality management assessment.
+      Supplementary information that supports a planning application, typically in the form of a report or an assessment - for example, an air quality management assessment
     </dd>
   </div>
 </dl>
