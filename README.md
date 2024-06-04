@@ -2,6 +2,10 @@
 
 [A manual](https://standards.planning-data.dev/) to help teams to design data standards for central and local government
 
+## Requirements
+
+Node (see `.nvmrc` for specific version)
+
 ### Running locally
 
 Install dependencies with
