@@ -70,18 +70,25 @@ Point data, although not as useful as the full geometry data, is still very usef
 
 These dates provide information about the validity of the record.
 
-They should not be used to include data that makes up part of the record. They are reserved for data about the record.
+They should not be used to include data that makes up part of the record, we [use meaningfully named fields for dates that make up part of the record](/patterns/contextual-dates/). Then, these dates are reserved for data about the record.
 
 They are used to tell us:
 * `entry-date` the date when the record was produced. **Entry = the date that information has been entered as a record.**
-* `start-date` the date when the record was known to be true from. More often than not it is the same as the entry-date. For historical records it will be different. **Start = the date the validity of the record starts.**
+* `start-date` the date when the record was known to be true from. More often than not it is the same as the `entry-date`. For historical records it will be different. **Start = the date the validity of the record starts.**
 * `end-date` the date when the record is no longer true, current or valid. **End = the date the validity of the record ends.**
 
-Take tree preservation orders (TPOs) as an example. For TPO records, these fields tell us:
+Take tree preservation orders (TPOs) as an example. For TPO records, the date fields are:
 
-* `entry-date` = the date the TPO record was created/provided.
-* `start-date` = the date the TPO was made or confirmed.
-* `end-date` = it will only be used for TPOs that are no longer valid and would be the date the TPO expired or was revoked.
+About the TPO
+
+* `made-date` - the date the tree preservation order was "made"
+* `confirmed-date` - the date the tree preservation order was "confirmed"
+
+About the record
+
+* `entry-date` = the date this TPO record was created/provided.
+* `start-date` = the date the data in this TPO record was known to be true.
+* `end-date` = the date the TPO record is no longer true. This would be the date the TPO expired or was revoked, or the date the record was modified.
 
 ## Include address-text field as well as urpn field
 
