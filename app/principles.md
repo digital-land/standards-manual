@@ -1,6 +1,6 @@
 ---
 layout: sub-navigation
-order: 2
+order: 1
 title: Principles
 description: We use these principles to help us make better decisions when we design data standards
 # aside:

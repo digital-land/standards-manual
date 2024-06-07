@@ -1,6 +1,6 @@
 ---
 layout: sub-navigation
-order: 6
+order: 5
 title: Glossary of terms
 description:
 ---

@@ -1,8 +1,8 @@
 ---
 layout: sub-navigation
-order: 3
-title: Patterns
-description: We follow a number of patterns when we design data standards.
+order: 7
+title: Guides
+description: We have written a number of explainers to help you understand how things fit together.
 ---
 
 {% for page in collections.layout %}

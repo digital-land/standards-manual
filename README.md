@@ -4,7 +4,8 @@
 
 ## Requirements
 
-Node (see `.nvmrc` for specific version)
+* Node (see `.nvmrc` for specific version)
+* [govuk-eleventy-plugin](https://x-govuk.github.io/govuk-eleventy-plugin/)
 
 ### Running locally
 

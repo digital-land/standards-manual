@@ -7,10 +7,13 @@ module.exports = function (eleventyConfig) {
       header: {
         organisationLogo: false,
         organisationName: 'Planning Data',
-        productName: 'Standards manual',
+        productName: 'Data Design Manual',
         search: {
           indexPath: '/search.json',
           sitemapPath: '/sitemap'
+        },
+        logotype: {
+          html: " "
         }
       }
     })
