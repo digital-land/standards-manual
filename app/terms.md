@@ -18,10 +18,19 @@ description:
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      data standard
+      approved data standard
     </dt>
     <dd class='govuk-summary-list__value'>
-      A data standard is a formal document that defines how data should be structured and formatted
+      A term defined in the <a href="https://www.legislation.gov.uk/ukpga/2023/55/contents" class="govuk-link">Levelling Up and Regeneration Act 2023</a>, <a href="https://www.legislation.gov.uk/ukpga/2023/55/section/84" class="govuk-link">section 84</a>(3).
+      <p class="govuk-inset-text">“Approved data standards”, in relation to planning data, are such written standards, containing technical specifications or other requirements in relation to the data, or in relation to providing or processing the data, as may be published by an appropriate authority from time to time.</p>
+    </dd>
+  </div>
+  <div class='govuk-summary-list__row'>
+    <dt class='govuk-summary-list__key'>
+      data specification
+    </dt>
+    <dd class='govuk-summary-list__value'>
+      A data specification is a formal document that defines how data should be structured and formatted
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
@@ -86,6 +95,46 @@ description:
     </dt>
     <dd class='govuk-summary-list__value'>
       Supplementary information that supports a planning application, typically in the form of a report or an assessment - for example, an air quality management assessment
+    </dd>
+  </div>
+  <div class='govuk-summary-list__row'>
+    <dt class='govuk-summary-list__key'>
+      data modelling
+    </dt>
+    <dd class='govuk-summary-list__value'>
+      Data modelling is the process of designing which datasets are needed, which fields should be included in each dataset and what the relationships are between the datasets.
+    </dd>
+  </div>
+  <div class='govuk-summary-list__row'>
+    <dt class='govuk-summary-list__key'>
+      data point
+    </dt>
+    <dd class='govuk-summary-list__value'>
+      Each individual piece of data. Imagine the record is a row in a table. A data point is the content of a cell in this row.
+    </dd>
+  </div>
+  <div class='govuk-summary-list__row'>
+    <dt class='govuk-summary-list__key'>
+      format
+    </dt>
+    <dd class='govuk-summary-list__value'>
+      When we refer to format we are referring to the precise way the data point should be structured. For example, dates should be in YYYY-MM-DD format
+    </dd>
+  </div>
+  <div class='govuk-summary-list__row'>
+    <dt class='govuk-summary-list__key'>
+      planning need
+    </dt>
+    <dd class='govuk-summary-list__value'>
+      A planning-flavoured user need. For example, with listed buildings a planning need is to know whether an applicant needs to apply for listed building consent
+    </dd>
+  </div>
+  <div class='govuk-summary-list__row'>
+    <dt class='govuk-summary-list__key'>
+      authoritative data(set)
+    </dt>
+    <dd class='govuk-summary-list__value'>
+      This data(set) from the commonly agreed-on authority that should provide the data(set)
     </dd>
   </div>
 </dl>
