@@ -51,10 +51,10 @@ description:
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      DLUHC datasets (registers)
+      register datasets
     </dt>
     <dd class='govuk-summary-list__value'>
-      A list that the department maintains that reference other datasets, for example a list of planning application types
+      A set of register datasets, managed centrally, that contain defined lists of categories or types. They are used to constrain the values that can be used in certain fields in our specifications. For example a list of planning application types
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
