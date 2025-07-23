@@ -10,136 +10,135 @@ description:
 <dl class="govuk-summary-list">
   <div class="govuk-summary-list__row">
     <dt class="govuk-summary-list__key">
-      national dataset
+      Approved Data Standard
     </dt>
     <dd class="govuk-summary-list__value">
-      A dataset that comes from a single source, usually a government department or public body
+A term defined in the Levelling Up and Regeneration Act 2023, section 84(3). 
+“Approved data standards”, in relation to planning data, are such written standards, containing technical specifications or other requirements in relation to the data, or in relation to providing or processing the data, as may be published by an appropriate authority from time to time.
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      approved data standard
+      Candidate Data Specification
     </dt>
     <dd class='govuk-summary-list__value'>
-      A term defined in the <a href="https://www.legislation.gov.uk/ukpga/2023/55/contents" class="govuk-link">Levelling Up and Regeneration Act 2023</a>, <a href="https://www.legislation.gov.uk/ukpga/2023/55/section/84" class="govuk-link">section 84</a>(3).
-      <p class="govuk-inset-text">“Approved data standards”, in relation to planning data, are such written standards, containing technical specifications or other requirements in relation to the data, or in relation to providing or processing the data, as may be published by an appropriate authority from time to time.</p>
+      <p>Users have had the opportunity to test these specifications to confirm they include the required data and that we understand as far as possible the impacts on users conforming to the specification.</p> 
+      <p>We expect these specifications to remain largely unchanged with only monor revisions anticipated. These form the technical specification input to the ‘approved data standards’.</p>
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      data specification
+      Composite [data] specificications
     </dt>
     <dd class='govuk-summary-list__value'>
-      A data specification is a formal document that defines how data should be structured and formatted
+      These are combinations of modular specifications that serve a specific use case / definition.
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      consultative or informative dataset
+      Data Specification
     </dt>
     <dd class='govuk-summary-list__value'>
-      A dataset that can be used to help fulfil planning requirements
+      Also known as ‘Technical Specification’ A formal document that defines how data should be structured and formatted.
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      trigger dataset 
+      Data standard 
     </dt>
     <dd class='govuk-summary-list__value'>
-      A dataset that helps identify the need to complete a planning requirement
+      A general term refering to an assembled collection of data components that uniformly describe data according to the expectations of all data users. This enables consistency and clarity. See <a href="https://www.claravine.com/resources/what-are-data-standards/" class="govuk-link">What are data standards</a>
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      register datasets
+      Declarative Model
     </dt>
     <dd class='govuk-summary-list__value'>
-      A set of register datasets, managed centrally, that contain defined lists of categories or types. They are used to constrain the values that can be used in certain fields in our specifications. For example a list of planning application types
+      <p>A declarative model has a formal structure and rules that computers can easily process and interpret – these are created to automate tasks, allow data exchange, and allow different systems and software to communicate with each other.</p>
+      <p>A way of describing data by saying what it should look like, not how to build it. It’s like writing a recipe, not doing the cooking.</p>
+      <p>A declarative model is an output from developing the pilot specification.</p>
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      licence
+      Information Model
     </dt>
     <dd class='govuk-summary-list__value'>
-      The type of licence indicates the level to which you can share the data and what others can do with the data
+      <p>An information model describes what data is required, it is designed to be easily understood by humans, rather than just machines.</p>
+      <p>They are usually text-based, use natural language, and have a structure that allows people to read and understand them.</p>
+      <p>An information model is the output of developing the working draft specification.</p>
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      attribution
+      Interoperability
     </dt>
     <dd class='govuk-summary-list__value'>
-      Acknowledgement to the original owner/copyright holder of the data
+      Data and metadata should be able to be integrated and exchanged between different systems, applications, and workflows
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      data
+      Modular [data] Specifications
     </dt>
     <dd class='govuk-summary-list__value'>
-      Information about a planning consideration published according to our data standard
+      Also known as componant [data] specifications, These are individual data elements that can be defined and then used to build different composite specifications.
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      planning consideration
+      Open data
     </dt>
     <dd class='govuk-summary-list__value'>
-      A planning consideration is something specific to an area that may impact the outcome of a planning decision
+      Data that anyone can access, use or share. See <a href="https://theodi.org/news-and-events/blog/what-is-open-data/" class="govuk-link">What is Open data</a>
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      planning requirement
+      Open Data Standards Community
     </dt>
     <dd class='govuk-summary-list__value'>
-      Supplementary information that supports a planning application, typically in the form of a report or an assessment - for example, an air quality management assessment
+      The community group that supports the co-creation of data specifications with the data design team.
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      data modelling
+      Open source
     </dt>
     <dd class='govuk-summary-list__value'>
-      Data modelling is the process of designing which datasets are needed, which fields should be included in each dataset and what the relationships are between the datasets.
+      Open source is source code that is made freely available for possible modification and redistribution
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      data point
+      Pilot Data Specification
     </dt>
     <dd class='govuk-summary-list__value'>
-      Each individual piece of data. Imagine the record is a row in a table. A data point is the content of a cell in this row.
+      <p>These specifications are being tested with with users to ensure they work with their processes, are able to represent existing data, and meet their needs.</p>
+      <p>A pilot specification could change as we undertake further testing.</p>
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      format
+      Technical Specification
     </dt>
     <dd class='govuk-summary-list__value'>
-      When we refer to format we are referring to the precise way the data point should be structured. For example, dates should be in YYYY-MM-DD format
+      See data specification
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      planning need
+      Working draft Specifications
     </dt>
     <dd class='govuk-summary-list__value'>
-      A planning-flavoured user need. For example, with listed buildings a planning need is to know whether an applicant needs to apply for listed building consent
-    </dd>
-  </div>
-  <div class='govuk-summary-list__row'>
-    <dt class='govuk-summary-list__key'>
-      authoritative data(set)
-    </dt>
-    <dd class='govuk-summary-list__value'>
-      This data(set) from the commonly agreed-on authority that should provide the data(set)
+      <p>These specifications are currently being developed to meet the user needs we are uncovering.</p>
+      <p>We expect these specifications to evolve as we learn more about user needs and the data landscape.</p>
     </dd>
   </div>
 </dl>
 
-## Stages of our process
+## Stages of our process (as of 2024)
 
 <dl class="govuk-summary-list">
   <div class='govuk-summary-list__row'>
