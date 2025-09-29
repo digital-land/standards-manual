@@ -28,7 +28,7 @@ A term defined in the Levelling Up and Regeneration Act 2023, section 84(3).
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      Composite [data] specificications
+      Composite [data] specifications
     </dt>
     <dd class='govuk-summary-list__value'>
       These are combinations of modular specifications that serve a specific use case / definition.
@@ -39,7 +39,7 @@ A term defined in the Levelling Up and Regeneration Act 2023, section 84(3).
       Data Specification
     </dt>
     <dd class='govuk-summary-list__value'>
-      Also known as ‘Technical Specification’ A formal document that defines how data should be structured and formatted.
+      Also known as ‘Technical Specification’. A formal document that defines how data should be structured and formatted.
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
@@ -80,10 +80,10 @@ A term defined in the Levelling Up and Regeneration Act 2023, section 84(3).
   </div>
   <div class='govuk-summary-list__row'>
     <dt class='govuk-summary-list__key'>
-      Modular [data] Specifications
+      Modular [data] specifications
     </dt>
     <dd class='govuk-summary-list__value'>
-      Also known as componant [data] specifications, These are individual data elements that can be defined and then used to build different composite specifications.
+      Modular specifications, also known as components, are reusable building blocks of data. Each module defines a specific set of fields or rules, which can then be combined in different ways to create full specifications. This makes them easier to reuse, maintain, and adapt across different contexts..
     </dd>
   </div>
   <div class='govuk-summary-list__row'>
